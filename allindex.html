@@ -1,0 +1,12 @@
+---
+layout: default
+title: C'est la Z
+---
+ 
+   <table class="hoverback">
+    {% for post in site.posts %}
+     <tr><td>
+       <a class="hoverback" href="{{post.url}}">{{post.title}}</a> - {{post.date}}
+     </td></tr>
+    {% endfor %}
+   </table>

@@ -1,0 +1,32 @@
+---
+published: false
+layout: post
+name: 
+title:
+tags: 
+---
+0. intro
+1. my toolkit
+2. digital ocean
+2.5 philosophy - small tools put together
+3. basic navigation
+4. piping and redirection
+
+
+cut and sort -- google forms to csv
+
+building the minutia list -- names | cut | sort -R
+
+find for homework sorting
+
+tar |ssh to copy
+
+
+tmux --detatch - go to work - attach
+
+task based or command based
+
+@alfredtwo and @keinath (Alfred thompson, Steve Keinath tweet)
+
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/alfredtwo">@alfredtwo</a> <a href="https://twitter.com/csteachersa">@csteachersa</a> Right. I know very little &amp; would love a &quot;zero to hero&quot; Linux workshop.</p>&mdash; Steve Keinath (@keinath) <a href="https://twitter.com/keinath/statuses/400335634297937920">November 12, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
