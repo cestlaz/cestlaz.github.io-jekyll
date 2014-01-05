@@ -3,7 +3,7 @@ published: true
 layout: post
 name: Hacking Sessions Resume
 title: Hacking Sessions Resume
-tags: 
+tags:  Hacking Markov Chains 
 ---
 
 <img width="50%" src="/img/2014-01-05-hacking-sessions-7/hackers.jpg"></img>
