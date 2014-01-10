@@ -6,7 +6,7 @@ title: C'est la Z
    <table class="hoverback">
     {% for post in site.posts %}
      <tr><td>
-       <a class="hoverback" href="{{post.url}}">{{post.title}}</a> - {{post.date}}
+       <a class="hoverback" href="{{post.url}}">{{post.title}}</a> - {{post.date| date_to_string}} - <a style="float:right" href="{{post.url}}#disqus_thread">0 comments</a>
      </td></tr>
     {% endfor %}
    </table>
