@@ -6,7 +6,7 @@ title: C'est la Z
    <table class="hoverback">
     {% for post in site.posts %}
      <tr><td>
-       <a class="hoverback" href="{{post.url}}">{{post.title}}</a> - {{post.date| date_to_string}} - <a style="float:right" href="{{post.url}}#disqus_thread">0 comments</a>
+       <a class="hoverback" href="{{post.url}}">{{post.title}}</a> - {{post.date| date_to_string}} - <a style="float:right" href="{{post.url}}#disqus_thread">comments</a>
      </td></tr>
     {% endfor %}
    </table>
@@ -22,5 +22,5 @@ title: C'est la Z
         s.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
-    </script>
+</script>
     
