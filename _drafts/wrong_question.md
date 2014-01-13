@@ -6,6 +6,13 @@ title: There are no stupid questions - but there are the wrong ones.
 tags: 
 ---
 
+
+Zane -- how do you store a list in sql
+he really Wanted - users have tags how do we store them 
+
+it turns out - bookmarks also have tags so relations make a lot of sense
+
+
 The other day, Alfred Thompson wrote a post on [Debugging Student
 Code](http://blog.acthompson.net/2013/11/debugging-student-code.html). It
 got me thinking of a common occurance I've seen over the years:
