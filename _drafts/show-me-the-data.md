@@ -8,7 +8,7 @@ tags:
 
 ![Show me the data](/img/show-me-the-data/showme.png) 
 
-Last time, I shared my thoughts on the recent coverage of AP CS statistics. Compiled and pres[Barbara Ericson](http://home.cc.gatech.edu/ice-gt/556)
+Last time, I shared my thoughts on the recent coverage of AP CS statistics. Compiled and presented by [Barbara Ericson](http://home.cc.gatech.edu/ice-gt/556)
 and later reported on all over the place.
 
 To summarize my point of view - yes there is a problem but some of the
