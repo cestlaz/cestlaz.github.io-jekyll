@@ -7,11 +7,8 @@ tags:
 ---
 
 
- perm=`echo "abcdefghijklmnopqrstuvwxyz"ABCDEFGHIJKLMNOPQRSTUVWXYZ| sed "s/\(.\)/\1\n/g" | sort -R | tr -t "\\n" ":" | sed "s/[^a-zA-Z0-9,@]//g"`
 
-
-
-The other week, I noticed this Twitter conversation beetween <a href="http://twitter.com/alfredtwo">Alfred Thompson</a>  and <a href="http://twitter.com/keinath">Steve Keinath</a>
+A few weeks ago, I noticed this Twitter conversation between <a href="http://twitter.com/alfredtwo">Alfred Thompson</a>  and <a href="http://twitter.com/keinath">Steve Keinath</a>
 <p>
 
 <blockquote class="twitter-tweet"><p>I&#39;d love to see an Intro to Linux (way more than just install) as a 3-hour workshop at <a href="https://twitter.com/search?q=%23CSTA14&amp;src=hash">#CSTA14</a> <a href="https://twitter.com/csteachersa">@csteachersa</a></p>&mdash; Steve Keinath (@keinath) <a href="https://twitter.com/keinath/statuses/400333558603997184">November 12, 2013</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -20,7 +17,7 @@ The other week, I noticed this Twitter conversation beetween <a href="http://twi
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>
 
-I briefly considered proposing a session bit it was just a day or two before the deadline, I don't know if I'm going to be able to attend the conference, and besides, who said anything I proposed would be accepted.
+I briefly considered proposing a session for the conference but it was just a day or two before the deadline, I don't know if I'm going to be able to attend the conference, and besides, who said anything I proposed would be accepted.
 <p>
 
 Still, I liked the idea - I've been an educator for 23 years, a Linux user for most of that time and an  Unix user for longer. I'm a firm believer in operating system as toolkit and so I think I'll take Steve and Alfred's suggestion and try to put together a series of posts on using Linux from a CS educators point of view.
@@ -31,9 +28,63 @@ So, before we begin - a little background.
 
 I can proudly say that I've been Windows free since about 2000. That's when I decided to wipe the lat traces of Microsoft from my hard drives. Prior to that I just booted up MS-DOS or Windows to play games or to use a Excel or Word.
 <p>
-Since the early days of linux - back before Slackware, I dual booted. Before Linux, I dialed into public Unix systems such as <a href="http://www.panix.com">Panix</a> or <a href="http://en.wikipedia.org/wiki/The_Big_Electric_Cat">The Big Electric Cat</a>. At home, I tried to make MS-DOS as Unix like as I could. I ran the <a href="http://en.wikipedia.org/wiki/MKS_Toolkit">MKS Toolkti</a>, and used my own shell (a project every young programmer should attempt).
+Since the early days of Linux - back before Slackware, I dual booted. Before Linux, I dialed into public Unix systems such as <a href="http://www.panix.com">Panix</a> or <a href="http://en.wikipedia.org/wiki/The_Big_Electric_Cat">The Big Electric Cat</a>. At home, I tried to make MS-DOS as Unix like as I could. I ran the <a href="http://en.wikipedia.org/wiki/MKS_Toolkit">MKS Toolkti</a>, and used my own shell (a project every young programmer should attempt).
 <p>
 
-Next time, I'll talk about my current toolkit and how one can get started with Linux.
+Why am I posting this now? It's a new semester and I find myself, as usual leveraging the Linux shell. It was time to set up a mailing list for the class.
 
-From there, I'll talk more about the tools I use, my workflow, and just why working in the shell is so cool.
+I'm able to go to our school's data system and grab a tab delimited file that looks something like this:
+
+  <blockquote><pre>
+Code	Section	Period	Last	First	ID	Official	Advisor	OSIS	Email
+grY22tBs	01	6	Hxk	Blu GFy	9272	7rr	gEs	274989649	zlu3lxk@QylKR.oqy
+grY22tBs	01	6	HiQqvlRu	Blku	9918	7PP	YHZHm	200878353	zzl8@yu.oqy
+grY22tBs	01	6	plxk	ClSKv	9226	7II	PHXrNY	274661826	olxkvl@QylKR.oqy
+grY22tBs	01	6	pxKk	BqVxFl	9026	7II	PHXrNY	224608174	zo6461@lqR.oqy
+grY22tBs	01	6	pqxuk	NRK	9234	7dd	gHAMmNd	270217219	uRKo90@QylKR.oqy
+  </pre>  </blockquote>
+<p>
+<p>
+It's tab delimited and a scrambled the letters.
+<p>
+Oh, how did I do that scrambling? Easy. First, I combined some basic utilities to make a random permutation of the upper and lower case letters and stored them in a shell variable. Don't worry, I'll explain these commands in upcoming posts:
+<p>
+<blockquote>
+perm=`echo "abcdefghijklmnopqrstuvwxyz"ABCDEFGHIJKLMNOPQRSTUVWXYZ| sed "s/\(.\)/\1\n/g" | sort -R | tr -t "\\n" ":" | sed "s/[^a-zA-Z0-9,@]//g"`
+</blockquote>
+<p>
+<p>
+Then I used tr (translate) to exchange the real letters for a random one:
+<p>
+<blockquote>
+cat students.tsv | tr a-zA-Z $perm > students.scrambled
+</blockquote>
+<p><p>
+
+So back to the real work. I needed to isolate the students email addresses. The process:
+
+  <ol>
+    <li>convert the tabs to commas</li>
+    <li>pull out the 10th column</li>
+    <li>These are the emails, save them to a file</li
+  </ol>
+
+So, I typed:
+
+<blockquote>
+cat students.tsv | sed "s/\t/,/g" | cut -d, -f10 > emails
+</blockquote>
+
+sed replaces the tabs (\t) with commas and cut pulls out the email addresses. It's all stored in a file named emails.
+<p><p>
+Now, I just have to import these into my maillist software (mailman).
+
+  <blockquote>
+    add_members -r emails myclasslist
+  </blockquote>
+
+So, that's it, easy peasy.
+
+I'll be away for most of this week at the Tapia conference and then I'll be playing catch up, but I'm hoping to do a series of posts talking about my Linux toolset and how I use it.
+
+I hope you all find it interesting and maybe even useful.
