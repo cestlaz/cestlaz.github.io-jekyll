@@ -6,6 +6,11 @@ title: Shell Games - an introduction
 tags: 
 ---
 
+
+ perm=`echo "abcdefghijklmnopqrstuvwxyz"ABCDEFGHIJKLMNOPQRSTUVWXYZ| sed "s/\(.\)/\1\n/g" | sort -R | tr -t "\\n" ":" | sed "s/[^a-zA-Z0-9,@]//g"`
+
+
+
 The other week, I noticed this Twitter conversation beetween <a href="http://twitter.com/alfredtwo">Alfred Thompson</a>  and <a href="http://twitter.com/keinath">Steve Keinath</a>
 <p>
 
