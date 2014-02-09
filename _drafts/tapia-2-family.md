@@ -5,7 +5,8 @@ title: StuyCS  family from coast to coast
 tags:  Seattle Halloween Teacher community
 ---
 
-![Alums](/img/tapia/alumms.jpg) 
+<img height=250px src="/img/tapia/alums.jpg"></img>
+
 
 
 I think my one regret over the years is that I haven't done much
