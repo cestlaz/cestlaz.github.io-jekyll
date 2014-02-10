@@ -32,10 +32,11 @@ Mike for being the police officer when he, William, Aaron and Paul
 were the Village People for Halloween. It was amazing to see him, meet
 his wife talk about old times and see what he's doing today.
 
-Helene, actually, isn't StuyCS, but she is a kindred spirit, over the
-years, I've met so many CS educators that don't get it, but we clicked
-right off the bat. As with my alums outside of the city, I regret
-that we only get to see each other once every few years.
+Helene, actually, isn't StuyCS, but she is an educator of a kindred
+spirit, over the years, I've met so many CS educators that don't get
+it, but we clicked right off the bat. As with my alums outside of the
+city, I regret that we only get to see each other once every few
+years.
 
 Two nights later, I got together with Sam (StuyCS '96), Daemon (StuyCS
 '06) and Matt (StuyCS '07) along with Boback, Alan, and Ephraim, three
@@ -43,8 +44,8 @@ other high school teachers who attended the conference.
 
 I hope we didn't bore the teachers with our high school stories, but I
 really had a blast. We talked about old times, we talked of current
-issues, good food and good friends. We spanned 27 years of school but
-that didn't matter. But a bunch of bright interesting like minded
+issues, good food and good friends. We spanned 27 years of Stuy but
+that didn't matter. Get a bunch of bright interesting like minded
 people together and good things happen.
 
 I feel amazingly blessed that I can travel across the country and
@@ -52,7 +53,8 @@ students from 10 and 20 years ago want to get together to catch up. I
 guess I should really say friends, not students.
 
 I've been thinking a lot about my career as I close in on 25 years of
-teaching. What impact I've had, what I could have done better, what I did right.
+teaching. What impact I've had, what I could have done better, what I
+did right.
 
 I think I can live with the StuyCS family as my legacy.
 
