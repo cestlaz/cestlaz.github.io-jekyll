@@ -78,26 +78,3 @@ every day I will see 150 kids and 20 more every Saturday. My kids, who
 will be part of the Stuy CS and now CSTUY family. They might not know
 now what they're getting, but I do and I know I've made a difference.
 
-######Some Links:
-
-[Documentary | Pete Seeger The Power Of Song](http://beyondfrequency.com/2014/01/31/documentary-pete-seeger-the-power-of-song/)
-
-[Pete Seeger's Powerful Legacy](http://readaloudsforallchildren.wordpress.com/2014/01/30/pete-seegers-powerful-legacy/)
-
-[Pete Seeger: 'Do you know the difference between education and experience?'](http://www.washingtonpost.com/blogs/answer-sheet/wp/2014/01/28/pete-seeger-do-you-know-the-difference-between-education-and-experience/)
-
-[In defense of Pete Seeger, American Communist](http://mobile.wnd.com/2014/01/in-defense-of-pete-seeger-american-communist/)
-
-[Voices United: Remembering Pete Seeger](http://aadcr.wordpress.com/2014/01/30/voices-united-remembering-pete-seeger/)
-
-[Pete Seeger: He Sang Songs In The Key of Life](http://livegreenbegreen.com/2014/01/30/pete-seeger-he-sang-songs-in-the-key-of-life/)
-
-[Pete Seeger Tribute Concert in the Works](http://www.rollingstone.com/music/news/pete-seeger-tribute-concert-in-the-works-20140130)
-
-[Remembering Pete Seeger](http://www.fromthetrenchesworldreport.com/remembering-pete-seeger/74390)
-
-[Pete Seeger's Washington ties #TBT](http://www.washingtonpost.com/blogs/reliable-source/wp/2014/01/30/pete-seegers-washington-ties-tbt/)
-
-
-
-
