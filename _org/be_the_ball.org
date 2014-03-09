@@ -1,0 +1,30 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title:  Be the ball
+tags: 
+---
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+#+BEGIN_HTML
+<div class="center">
+<iframe width="560" height="315" src="//www.youtube.com/embed/sWH811TcckU" frameborder="0" allowfullscreen></iframe>
+</div>
+#+END_HTML
+
+
+
+Crystal Furman wrote a nice post titled [[http://teachingcomputerscience.weebly.com/1/post/2014/03/coding-comprehension.html][Coding Comprehension]] about a
+week ago. There was a little buzz about it in the APCS Facebook group
+and shortly after, Alfred Thompson added his [[http://blog.acthompson.net/2014/03/when-knowing-syntax-is-not-enough.html][two cents.]]
+
+I thought I'd add mine, or at least a couple of thoughts.
+
+There are a lot of issue 
