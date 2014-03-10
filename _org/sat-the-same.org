@@ -6,7 +6,7 @@
 published: true
 layout: post
 title: The new SAT - the more things stay the same 
-tags:  
+tags:   SAT Test preparation College Board 
 ---
 #+END_HTML
 
@@ -59,7 +59,4 @@ resources.
 
 
 So, new SAT but nothings changed.
-
-
-
 
