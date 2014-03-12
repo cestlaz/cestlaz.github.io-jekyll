@@ -115,7 +115,17 @@ an algorithm form $O(n^2)$ to $O(nlg(n))$ to $O(n)$.
 Next, moving to the quicksort and also showing that we can indeed
 avoid those really bad pivots.
 
-- Addendum - 
+
+#+BEGIN_HTML
+<h4>Addendum</h4>
+
+We moved to quicksort today and overall I'm happy with this
+approach. The only thing I think needs tweaking is going from the idea
+of partitioning to Java code. Java makes it somewhat of a bear.
+<br>
+#+END_HTML
+
+
 
 
 
