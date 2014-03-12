@@ -115,6 +115,7 @@ an algorithm form $O(n^2)$ to $O(nlg(n))$ to $O(n)$.
 Next, moving to the quicksort and also showing that we can indeed
 avoid those really bad pivots.
 
+- Addendum - 
 
 
 
