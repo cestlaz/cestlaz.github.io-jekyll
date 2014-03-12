@@ -54,7 +54,7 @@ They don't disappoint and suggest something like this:
   print findKth(L,3)
 #+END_SRC
 
-Clearly an n^2 algorithm.
+Clearly an $O(n^2)$ algorithm.
 
 
 Can we do better?
@@ -62,7 +62,7 @@ Can we do better?
 Certainly.
 
 The students then suggest sorting the data set first. If we use
-mergesort, we can sort in $nLg(n)$ time. This lead to a great
+mergesort, we can sort in $O(nLg (n))$ time. This lead to a great
 conversation about sorting being so fast it's practically free and
 that you don't have to hard code everything from scratch. Not only is
 sorting the data set then plucking the k^th item out much faster, if
@@ -87,12 +87,12 @@ We now know that after partitioning. the pivot is in it's exact
 location. If its index is *k* then we're done. If not, we can
 recursively *quickselect* on either the left or right side. 
 
-Pretty cool, but is it faster.
+Pretty cool, but is it faster?
 
 It's easy to see that if we keep choosing a bad pivot (the smallest or
 largest in the list), each iteration takes $n$ time to partition and
 each iteration takes one item out of contention. This takes us back to
-$n^2$. 
+$O(n^2)$. 
 
 However...
 
@@ -106,6 +106,11 @@ $n+\frac{n}{2} +\frac{n}{4}+\frac{n}{8}+\dots$ and since $\frac{n}{2}
 That's really cool.
 
 Homework was the actual implementation.
+
+I think this might be a better way to approach quicksort. It seems
+less forced, plus the class gets to go through the exercise of taking
+an algorithm form $O(n^2)$ to $O(nlg(n))$ to $O(n)$.
+
 
 Next, moving to the quicksort and also showing that we can indeed
 avoid those really bad pivots.
