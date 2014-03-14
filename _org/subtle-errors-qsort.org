@@ -1,0 +1,48 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Sorging - Subtle Errors 
+tags:  
+---
+#+end_html
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+Time to wrap up sorting for the year. We just finished quicksort
+having gone through a series of lessons
+- We started with [[http://cestlaz.github.io/2014/03/12/select-to-sort.html#.UyJRTh_G8RM][Quickselect]].
+- Then we did a quicksort, copying to new arrays during the partition
+- Then finally to an in place quicksort.
+
+For the final quicksort we used a partition algorithm pretty much the
+same as the one described [[http://en.wikipedia.org/wiki/Quicksort][here.]]
+
+We started testing using code that looked something like this:
+
+#+BEGIN_SRC java
+  Random rnd = new Random();
+  int a[] = new int[n];
+  for (int i=0;i<n;i++) {
+      a[i] = rnd.nextInt(100);
+  }
+  qsort(a);
+#+END_SRC
+
+And everything seemed terrific.
+
+Just like when we did the mergesort, we started to increase n. First
+20, then 100, then 1000 and so on. 
+
+All of a sudden, we started getting a stack overflow. We only made it
+to about 80,000. Mergesort got to arrays of about 30,000,000 items
+before we started to have problems.
+
+Our algorithm was sound. What was wrong? I love problems like these.
+
