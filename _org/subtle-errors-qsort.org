@@ -44,5 +44,14 @@ All of a sudden, we started getting a stack overflow. We only made it
 to about 80,000. Mergesort got to arrays of about 30,000,000 items
 before we started to have problems.
 
-Our algorithm was sound. What was wrong? I love problems like these.
+Our algorithm was sound. It worked on everything up to about
+80,000. Since Mergesort worked well into the tens of millions, quicksort
+should as well.
+
+What was wrong? 
+
+I love it when problems like these come up in class.
+
+
+
 
