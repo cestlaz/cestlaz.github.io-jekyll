@@ -5,17 +5,18 @@
 ---
 published: true
 layout: post
-title: Sorging - Subtle Errors 
-tags:  
+title: Sorting - Subtle Errors 
+tags:   Quicksort Sorting algorithm 
 ---
 #+end_html
+
 #+begin_html
 <style>
 div.center {text-align:center;}
 </style>
 #+end_html
 
-Time to wrap up sorting for the year. We just finished quicksort
+Time to wrap up sorting for a while. We just finished quicksort
 having gone through a series of lessons
 - We started with [[http://cestlaz.github.io/2014/03/12/select-to-sort.html#.UyJRTh_G8RM][Quickselect]].
 - Then we did a quicksort, copying to new arrays during the partition
@@ -24,7 +25,7 @@ having gone through a series of lessons
 For the final quicksort we used a partition algorithm pretty much the
 same as the one described [[http://en.wikipedia.org/wiki/Quicksort][here.]]
 
-We started testing using code that looked something like this:
+We started testing using by building a randomly filled array like this:
 
 #+BEGIN_SRC java
   Random rnd = new Random();
@@ -41,17 +42,89 @@ Just like when we did the mergesort, we started to increase n. First
 20, then 100, then 1000 and so on. 
 
 All of a sudden, we started getting a stack overflow. We only made it
-to about 80,000. Mergesort got to arrays of about 30,000,000 items
-before we started to have problems.
+to about 450,000. Mergesort got to arrays of about 40,000,000 items
+before we started to have memory problems.
 
 Our algorithm was sound. It worked on everything up to about
-80,000. Since Mergesort worked well into the tens of millions, quicksort
-should as well.
+450,000. Since Mergesort worked well into the tens of millions, quicksort
+should have as well.
 
 What was wrong? 
 
-I love it when problems like these come up in class.
+We changed the code a bit:
+
+#+BEGIN_SRC java
+  Random rnd = new Random();
+  int a[] = new int[n];
+  for (int i=0;i<n;i++) {
+      a[i] = rnd.nextInt(10000);
+  }
+  qsort(a);
+#+END_SRC
+
+Instead of an array of 450,000 values between 0 and 100, our elements
+now went fro 0 to 10,000. 
+
+All of a sudden things were good.
+
+Why? It wasn't long before the student saw that 500,000 elements with
+values between 0 and 100 meant lots of duplicates. Our partition
+didn't account for that. If we had duplicate pivots, only one is moved
+into place, the rest are left unsorted taking us closer to worst case
+performance and blowing our stack.
+
+Fortunately there was an easy fix: 
+
+#+BEGIN_SRC java
+    public int partition(int[] a, int l, int r) {
+	int tmp;
+	int pivotIndex = l+rnd.nextInt(r-l);
+	int pivot = a[pivotIndex];
+	tmp = a[r];
+	a[r] = a[pivotIndex];
+	a[pivotIndex]=tmp;
+
+	int wall=l;
+	int pcount=1;
+	for (int i=l;i<r;i++) {
+	    if (a[i]<pivot) {
+		tmp = a[i];
+		a[i]=a[wall];
+		a[wall]=tmp;
+		wall++;
+	    }
+	    if (a[i]==pivot)
+		pcount++;
+	}
+	// now copy over all the pivots
+	int rwall=wall;
+	tmp = a[rwall];
+	a[wall]=a[r];
+	a[r]=tmp;
+	rwall++;
+	for (int i=rwall+1;i<=r;i++) {
+	    if (a[i]==pivot) {
+		tmp = a[rwall];
+		a[rwall]=a[i];
+		a[i]=tmp;
+		rwall++;
+	    }
+	}
+	return (wall+rwall)/2;
+    }
+#+END_SRC
+
+When we partition the array, move all the elements equal to the
+partition to the middle of the array.
 
 
+That did the trick.
+
+All of a sudden we were blazing through data sets upwards of
+100,000,000 elements.
+
+
+We're done for sorting for a while, at least until the heapsort but
+it's been a fun couple of weeks
 
 
