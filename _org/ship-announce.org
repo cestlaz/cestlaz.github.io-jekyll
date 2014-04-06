@@ -1,0 +1,46 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: false
+layout: post
+title: Announcing SHIP
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+
+It's been a while since my last post.
+
+That's mostly since I've getting things ready for this announcement.
+
+I've talked about our non-profit [[http://cstuy.org][CSTUY]] before. Well, we've been hard
+at work getting things together for our first summer program:
+
+* SHIP - Summer Hackers Immersion Program
+
+
+
+We're really excited about this - taking our years of experience
+teaching kids at our schools and taking it to a wider audience.
+
+**SHIP** is being hosted at St. Joseph's College in Brooklyn and runs from July 7th through July 31.
+
+So, if you know a rising 9th through 12th grader in or around New York City let them know about this great opportuity. 
+
+
+Information can be found at [[http://programs.cstuy.org/ship]].
+
+And the application is here: [[http://programs.cstuy.org/ship-apply]]
+
+Information on our overall plan is here: [[http://programs.cstuy.org/ship-outreach]]
+
+We're also still raising funds for the program, so if you or someone you know can help, they can contact me or donate directly [[http://cstuy.org/webform/donate][here.]]
+
