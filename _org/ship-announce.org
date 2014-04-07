@@ -3,7 +3,7 @@
 #+OPTIONS: toc:nil
 #+begin_html
 ---
-published: false
+published: true
 layout: post
 title: Announcing SHIP
 tags:  
