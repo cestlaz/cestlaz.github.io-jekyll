@@ -1,0 +1,61 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Dream It, Code It, Win It
+tags:   Fred Wilson HTML Markup language Data Formats Fred Cascading Style Sheets JavaScript PHP
+
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+Last night, I attended the Dream It, Code It, Win It awards. 
+
+I'd actually write up the event but Fred Wilson's already done a
+better job at that than I could:
+[[http://avc.com/2014/05/dream-it-and-code-it/]]
+ 
+
+As Fred stated on his blog, it's a real shame that the high schooler's
+didn't get to show off their work but it was great to see that there
+were entries from a variety of schools including The Academy for
+Software Engineering and The Young Women's Leadership Academy.
+
+As part of the application process, the teams made short videos. Here
+are three of the Stuy entries. I'll add the fourth once I get it.
+
+The first two were written by teams in our senior SoftDev class the
+third by juniors currently in APCS using mostly what they learned in
+the second half of our intro class.
+
+Enjoy.
+
+
+Cartwheels:
+#+BEGIN_HTML
+<iframe width="560" height="315" src="//www.youtube.com/embed/gJRik3aBxrI" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
+
+
+Tour de City:
+#+BEGIN_HTML
+<iframe width="560" height="315" src="//www.youtube.com/embed/ztRGdRlzNYU" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
+
+Fun Time Projects:
+#+BEGIN_HTML
+<iframe width="560" height="315" src="//www.youtube.com/embed/r4itvjf7UHY" frameborder="0" allowfullscreen></iframe
+#+END_HTML
+
+
+
+
+
