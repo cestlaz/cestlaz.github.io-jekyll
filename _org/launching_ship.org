@@ -1,0 +1,54 @@
+
+
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Preparing to launch SHIP
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+#+BEGIN_HTML
+<div class="center">
+<figure>
+ <img height="300px" " src="/img/launch_ship/tas.jpg">
+
+<figcaption>Some of our Ship Stewards (TAs) planning day one. </figcaption>
+</figure>
+</div>
+#+END_HTML
+
+What's been happening since the close of the school year? We've been
+getting ready to start [[http://cestlaz.github.io/2014/04/07/ship-announce.html][SHIP]] - CSTUY's first summer program.
+
+SHIP will be running starting this Monday through the end of July and
+should be a great adventure.
+
+** Fast facts:
+- We have 47 students and 14 student teaching assistants (stewards)
+- We have 4 amazing teachers, 1 mentor for the TAs, me, and one official
+  program mom.
+- Most of the shipmates claim little or no programming experience.
+- Our students come from 30 different schools. Mostly NYC but a few from beyond.
+- 36% of our shipmates are girls
+
+* 
+Yesterday the team spent the morning at St. Joseph's College setting
+up the rooms. 
+
+Now all we have to do is wait for Monday morning to roll around.
+
+
+
+
+
