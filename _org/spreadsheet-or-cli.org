@@ -94,7 +94,7 @@ Results:
 : 30
 
 
-Thirty one different schools.
+Thirty different schools.
 
 Finally I needed the emails - here I wanted to be able to paste them
 into Gmail's bcc field. I could have just used *cat* and *cut* and
