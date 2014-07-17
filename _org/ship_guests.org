@@ -1,0 +1,81 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Building a SHIP - Guest Stars
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+#+BEGIN_HTML
+<figure>
+ <img height="300px" " src="/img/ship_guests/cynthia.jpg">
+<figcaption>Cynthia Koo talking about UX</figcaption>
+</figure>
+#+END_HTML
+
+
+* 
+Much like the Love Boat had every week, at CSTUY SHIP, we too have our
+guest stars.
+
+On the one hand, it's important to have a focused program that leaves
+the shipmates empowered to continue their CS studies on their
+own. That means the shipmates have to explore something with
+sufficient depth so that the learning sticks. It also means there has
+to be sufficient depth for the shipmates to continue their voyages
+after our month together has ended.
+
+On the other hand, we want to present the big picture as well. There
+are a lot of interesting things in computer science and technology
+that we really can't get to in just a few weeks. Certainly not if we
+want to do justice to those topics.
+
+Having one off lectures helps. This way, our shipmates are exposed to
+a wide array of voices and ideas. 
+
+Of course, scheduling the right speakers at the right time can be a challenge.
+Too technical too early can be a turn off. So can too simple.
+
+We're lucky enough to have some amazing guest stars on our ship. We
+started with a great talk on UX by [[http://www.cynthiakoo.com/blog/][Cynthia Koo]]. UX is something I wish
+kids were more exposed to and I think it was great that Cynthia was
+able to talk to the shipmates about it before they embark on their own
+projects. If we set the seeds early and have user experience in the
+back of the shipmates heads before they start building things, I
+suspect that the end results will show it.
+
+Cynthia talked about user needs and business needs and used looked at
+Instagram and Snapchat as case studies. 
+
+The talk got the shipmates thinking about apps in a way they had never
+considered before. 
+
+#+BEGIN_HTML
+<figure>
+ <img height="300px" " src="/img/ship_guests/edgar.jpg">
+<figcaption>Edgar talking about all sorts of opportunities in tech</figcaption>
+</figure>
+#+END_HTML
+
+Today we had our second guest star. Edgar Troudt. Edgar talked about
+innovation, disruption, crowd consumption and more.
+
+Later on, we'll drill down with more technical talks.
+
+For now, though, these talks were meant to give a broader view and to
+inspire. I think they did.
+
+
+
+
+
