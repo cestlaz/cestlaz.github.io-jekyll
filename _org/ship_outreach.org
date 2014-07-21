@@ -1,0 +1,93 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Building a SHIP - Outreach
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+
+
+* 
+We've got a few more topics to cover in the **Building a SHIP**
+series. We still have to cover:
+- The Crew
+- Curricular Choices
+- The long term plan
+- Site and funding
+* 
+But for today, we'll talk outreach.
+* 
+Outreach proved to be particular challenge for SHIP. Our entire crew
+is made up of teachers. That meant that we couldn't communicate with
+schools during business hours. That made things particularly tough.  I
+could send emails after hours or set up emails to be sent at specific
+times during the day, but we couldn't call while at our day jobs. As a
+result, this led to a vary long communication loop and we could never
+be sure that information about SHIP was getting to the right people.
+
+We did have a small number of non-teacher volunteers and they were
+invaluable but they had limited knowledge from the teaching side.
+
+We had the volunteers try to call schools during the day and we
+followed up by emailing a flyer and link to a web site. We tried to
+emphasize that we needed help from the schools in finding the right
+students -- that is students who might not have even considered
+something like SHIP but where we could potentially turn them on to
+something new.
+
+In spite of this, we did get over 200 applicants for our 48 slots. I
+have no idea how this compares to similar programs.
+* 
+There were many terrific applications, but there were some head
+scratching situations. There were some incomplete applications which I
+attribute to students who weren't really interested in the program,
+but I was surprised by two things on the student side.
+
+First, sme times we needed a little more information from a student so we
+sent an email to the addresses (primary and backup) that they listed
+in the application. Some times students got right back to us. Other
+times it took days or even weeks. In one case, we weren't able to
+accept the student because he didn't get back to us until after the
+selection process was over. I know that not everyone reads or responds
+to emails promptly but I was surprised since these were cases of
+students who wanted to partake in our program.
+
+Another thing that surprised me is that we almost lost a couple of
+students because they thought the program would cost too much. We
+tried to make it as clear as possible that we offered financial
+assistance and in many cases could cover all fees but apparently we
+weren't as clear as I had hoped.
+* 
+The one **really big** shock to me involved
+recommendations. We required our applicants provide one email
+address for someone that agreed to write a recommendation letter and
+allowed for a second, optional one. We then contacted these
+recomenders. If we didn't hear back, we sent reminder emails and asked
+the applicants to prod the recommenders as well.
+
+We had a return rate of about 10%. This cut across type of school
+(public, private, parochial, and charter) and grade (rising 9 through
+12). As a teacher myself, I know of some colleagues who don't actually
+write recs they agree to write but I was shocked that we only heard
+back from 10%. The end result was that we could use a recommendation
+to help an applicant but we didn't feel that it was fair to penalize a
+student just because a teacher didn't send in a rec.
+
+* 
+As a final though on outreach, it should get easier for us over
+time. SHIP is going great and next year, we'll be a known quantity to
+schools. We should also have our cadre of shipmates helping spread the
+word and of course, we want them back for another summer of more
+advanced work.
+
