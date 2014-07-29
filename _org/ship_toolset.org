@@ -1,0 +1,122 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Building a SHIP - Toolset
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+
+* 
+We're almost at the end of CSTUY SHIP's first journey. The Shipmates
+and stewards will be showing off their work in another day or so and
+I'm excited to see their finished projects. 
+
+But what toolset are they using. 
+* 
+With knew we would be working with two rooms of relative beginners. We
+needed something that allowed us to develop the shipmates CS skills
+while also having a low cost of entry. At the same time, we had to
+use an environment that our Stewards would be comfortable with as they
+would be both supporting the shipmates and developing their own projects.
+* 
+Those of you that know me know that I'm **not** a fan of drag and drop
+languages. I've looked at them time and again. I even made a concerted
+effort while exploring a version of the new proposed AP course earlier
+this year [fn:1]. Languages such as scratch require almost no ramp up
+but for kids that are old enough for a traditional text based language
+I've found the following:
+- After a short time, my students find DnD languages restrictive and
+  slow. They can get more done more quickly by typing.
+- Many kids work on laptops with small screens. Small screens and DnD
+  languages are not a good match.
+- It's much easier to look things up in a text based language.
+- I'm not convinced that starting with a DnD is in any way better
+  prepares a student for a text based language. 
+
+Bottom line, I've had to rescue a number of kids who were turned off
+by the "toy" factor of languages like scratch and appinventor.
+
+DnD languages are probably fine for younger kids who are experimenting
+and playing around but for my kids, I want something more real.
+
+* The contenders:
+** 
+**Python** - I'm a big python fan. It's one of my go to languages. Low
+  cost of entry and very flexible.
+** 
+**Scheme** - I love functional. It's simple, but it's a harder sell
+  for parents and while in school, it's ok to take a few days to ramp
+  up to get to the fun stuff, in a summer program, a delay in fun can
+  be deadly.
+** 
+**Javascript / web based** - I also really like Javascript but the
+  development environments are pretty lousy and it's almost "C like" in
+  the number of hidden problems for newbies.
+** 
+**Java** - I'm not really a fan of the language but it is pretty
+straightforward and it is the language of the AP exam. I'm not a fan
+of AP but as we're trying to build a program from the ground up, it
+doesn't hurt to be able to say "this will prepare you for APCS."
+
+* The winner:
+So what did we use? [[http://processing.org][Processing]]. Processing is a wrapper and IDE around
+Java. It's really simple to get started with and it makes all sorts of
+graphics work very easy. Here's a simple processing program that
+creates a circle wherever you click the mouse:
+
+#+BEGIN_SRC java
+void setup() {
+  size(400,400);
+}
+
+void mouseClicked() {
+    fill(color(random(255),random(255),random(255)));
+    ellipse(mouseX,mouseY,20,20);
+}
+
+void draw() {
+  
+}
+#+END_SRC
+
+That's it. No **public static void main...** or anything like that, but
+it's legit Java, has types and classes plus:
+- great online documentation.
+- it's used to interface with arduino.
+- it has libraries for web cams, music, internet APIs, and more.
+
+By using something like processing, the shipmates learn a real
+language with sufficient depth to do something real and there's also
+enough of an online community so that they can continue to work on
+their own if they can't avail themselves of our future programs.
+
+While we were convinced that processing was the right choice for the
+shipmates. I wasn't 100% sold on it as the best choice for the
+stewards. Python would probably have been better for them but most of
+them will be doing advanced Python (as well as Javascript) in their
+classes in the fall and I didn't want to teach them something now and
+reteach it to them in another month. On the other hand, they all
+already knew Java and there was still plenty of neat things for them
+to explore with processing. In the end, I think we made the right choice.
+
+
+
+* Footnotes
+
+[fn:1] After going through the curriculum and scratch in depth, I
+concluded that the intro course I designed and my team has evolved
+over the past ten years is a stronger and more appropriate course for
+our students.
+
+
