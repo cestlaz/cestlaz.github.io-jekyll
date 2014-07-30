@@ -1,0 +1,79 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Can't wait for CSTUY SHIP Demo day tomorrow
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+
+#+BEGIN_HTML
+<figure>
+<img height="300px" " src="/img/ship-demo-day-tomorrow/mirandia.jpg">
+<figcaption>Miranda and Nadia showing off their project</figcaption>
+</figure>
+#+END_HTML
+
+* 
+ 
+Tomorrow is the last day of SHIP and we'll be capping the whole thing
+off with a day of demos, science fair style.
+
+Both the shipmates and the stewards will be showing off their work and
+I can't wait. I've intentionally stayed away from the shipmates
+because I want to be surprised but I've seen what the stewards have
+been doing and I can't tell you how proud I am of their work. I was
+going to say amazed, but actually, I'm not amazed at all -- I know
+they're all awesome.
+
+I'll put up pictures, descriptions and hopefully video after the event
+but here's a quick summary of what they've done:
+
+* 
+**3d network augmented reality pong** - 
+A 3d depth perception networked pong that you play using your hand as
+*the paddle. The program uses the camera and blob recognition to
+control the game.
+
+**Augmented Reality Board Game** - 
+It started with the stewards taking a picture of a maze and then
+having their program solve it but it evolved into a game. The computer
+continually takes a picture of the board and plays against a human
+opponent who makes moves on the physical board.
+
+**Painting identifier** (pictured above) - 
+Take a picture of a painting and the program will try to identify it.
+
+**Seam Carving Image editor** - 
+Look it up on youtube - it's really neat.
+
+**Photo Booth** - 
+A little more cut and dry than the above but one of the instructors
+has a wedding coming up and so we needed to build the photo booth.
+
+All these projects are awesome and what's more they're all done from
+scratch. Early on Gerry was visiting and commented on an early version
+of the pong game. He said "they're writing their own blob detection,
+right?" Of course. They can use libraries later. Now it's about
+learning neat things.
+
+I can't wait to see the stewards show these off tomorrow and also to
+see the shipmates projects.
+
+On a side note, I've started to go through the comments the shipmates
+have been writing down about the program - they just confirm what I
+already knew - I'm lucky to be working with the best group of
+educators out there.
+
+
+
