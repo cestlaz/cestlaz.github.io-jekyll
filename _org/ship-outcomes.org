@@ -68,7 +68,7 @@ The projects were terrific
 <p style="float:left">
 <figure style="float:left;padding:20px">
  <img height="300px" " src="/img/ship-outcomes/pacinvaders.png">
-<figcaption>PacInvadors by Sam, Margaret, and Ryan</figcaption>
+<figcaption>PacInvaders by Sam, Margaret, and Ryan</figcaption>
 </figure>
 <figure style="padding:20px">
  <img height="300px" " src="/img/ship-outcomes/iphone.png">
