@@ -69,7 +69,7 @@ that we have one for CS teachers.
 </div>
 #+END_HTML
 
-Of course, it extends up as well, although my mentors didn't teach
+Of course, it extends up as well, although my mentors, excepting Robert, didn't teach
 CS. 
 
 #+BEGIN_HTML
