@@ -5,7 +5,7 @@
 ---
 published: true
 layout: post
-title: 
+title: Building a High School Summer CS Program - SHIP
 tags:  
 ---
 #+end_html
@@ -16,21 +16,43 @@ div.center {text-align:center;}
 </style>
 #+end_html
 
+* 
+I wanted to do a couple more posts on the [[http://cstuy.org][CSTUY]] summer program SHIP,
+particularly about getting funding and reflections but I think I'll
+just wrap things up with the school year starting. 
 
-[[%0Ahttp://cestlaz.github.io/2014/07/03/launching-ship.html#.VAsC8R_fTZ8%0A][Preparing to launch]]
+Overall it was an amazing success and I'm amazingly proud of the
+entire team (in no particular order):
 
-[[http://cestlaz.github.io/2014/07/10/ship-tas.html#.VAsC7h_fTZ8][The Stewards]]
+Devorah, JonAlf, Sam, Yulia, Topher, Ethan, 
+Leslie, Brian, Andreas, Natan, Miranda, Nadia, Fawn, Lise, Jessica,
+Angela, Benedict, Elise, Fish, and Derek.
 
-[[http://cestlaz.github.io/2014/07/17/ship-guests.html#.VAsC7R_fTZ8][The Guests Stars]]
+and also proud of all the shipmates. Looking at where they started and
+where they ended up -- they were really terrific.
 
-[[http://cestlaz.github.io/2014/07/20/ship-outreach.html#.VAsC6x_fTZ8][Outreach]]
+The only downside is knowing what we can accomplish when we have the
+freedom, it reminds me about how badly we're
+handcuffed by our school and the department of education.
 
-[[http://cestlaz.github.io/2014/07/28/ship-toolset.html#.VAsC6h_fTZ8][Toolset]]
+Here are links to all the posts in case anyone's interested: 
 
-[[http://cestlaz.github.io/2014/07/30/ship-demo-day-tomorrow.html#.VAsC6B_fTZ8][Demo Day]]
+* 
+- [[http://cestlaz.github.io/2014/07/03/launching-ship.html#.VAuVjB_GyzU][Preparing to launch]] - Some overall stats that we started with.
 
-[[http://cestlaz.github.io/2014/08/05/ship-outcomes.html#.VAsC5h_fTZ8][Outcomes]]
+- [[http://cestlaz.github.io/2014/07/10/ship-tas.html#.VAsC7h_fTZ8][The Stewards]] - How older students mentored younger ones.
 
-[[http://cestlaz.github.io/2014/08/08/ship-partners.html#.VAsC5B_fTZ8][Partners]]
+- [[http://cestlaz.github.io/2014/07/17/ship-guests.html#.VAsC7R_fTZ8][The Guests Stars]] - Guest speakers to inspire the kids.
 
-[[http://cestlaz.github.io/2014/08/16/ship-crew.html#.VAsC4x_fTZ8][The Crew]]
+- [[http://cestlaz.github.io/2014/07/20/ship-outreach.html#.VAsC6x_fTZ8][Outreach]] - Some of the challenges in finding the kids.
+
+- [[http://cestlaz.github.io/2014/07/28/ship-toolset.html#.VAsC6h_fTZ8][Toolset]] - What language should we use?
+
+- [[http://cestlaz.github.io/2014/07/30/ship-demo-day-tomorrow.html#.VAsC6B_fTZ8][Demo Day]] - What the TA's built.
+
+- [[http://cestlaz.github.io/2014/08/05/ship-outcomes.html#.VAsC5h_fTZ8][Outcomes]] - And the overall results.
+
+- [[http://cestlaz.github.io/2014/08/08/ship-partners.html#.VAsC5B_fTZ8][Partners]] - We couldn't have done this without St. Josephs
+
+- [[http://cestlaz.github.io/2014/08/16/ship-crew.html#.VAsC4x_fTZ8][The Crew]] - And the best teaching crew in the business.
+
