@@ -131,5 +131,5 @@ So, for the title, I keep seeing Vavoom - a character from "Felix the
 Cat" that could level mountains with a single VAVOOM
 
 #+begin_html
-https://www.youtube.com/watch?v=gtZ_0gANyaY
+<iframe width="420" height="315" src="//www.youtube.com/embed/gtZ_0gANyaY" frameborder="0" allowfullscreen></iframe>
 #+end_html
