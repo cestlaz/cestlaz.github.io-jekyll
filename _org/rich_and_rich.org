@@ -43,7 +43,14 @@ this post to some of the things I learned from both of them.
 <div class="row">
 
 <div class="c6">
-<h2>Doc</h2>
+<h2>Rich (Doc)</h2>
+
+<div class="center">
+<figure>
+ <img height="300px" src="/img/ship-crew/crew.jpg">
+<figcaption>The Crew</figcaption>
+</figure>
+</div>
 
 
 #+end_html
@@ -68,8 +75,38 @@ knew. That was Doc.
 He also understood the "big picture."
 
 I was at a parents association meeting early in my Stuy career. All of
-the assistant principals were taking turns talking to the audience.
+the assistant principals were taking turns talking to an audience of
+Freshman parents.
 
+Each got up  and started to brag about their program:
+ - We had n intel semi finalists last year
+ - Our kids won whatever essay writing contest
+ - Six kids won gold medals in...
+
+Each AP was bragging about how awesome their department was but in
+truth they were talking about a handful of excellent kids who would
+have excelled no matter where they went. I'd guess Stuy or at least
+Stuy's educational programs probably had very little to do with these
+top kid's development and in any event, this wasn't really relavent to
+parents of incoming studnets.
+
+Then it was Richie's turn.
+
+Richie got up and said the following:
+
+#+begin_quote
+Go home, hug your children, ask them how their days were.
+Encourage them and support them.
+Everything else will work itself out.
+#+end_quote
+
+That really stayed with me. So few teachers look beyond their field. I
+remember talking to one of the best chemestry teachers I know - I
+asked "what do you doo knowing that most of your kids won't be and in
+fact souldn't be chemists?" The reply was that he looked at all his
+students as though they all wanted to be and were going to be
+chemists. Doc looked at his students as whole people first -
+mathematicians second. That's one of the many lessons I learned from Doc.
 
 #+begin_html
 </div>
@@ -77,17 +114,24 @@ the assistant principals were taking turns talking to the audience.
 
 #+begin_html
 <div class="c6">
-<h2>Rich</h2>
-#+end_html
+<h2>Rich (Richard)</h2>
+
+<div class="center">
+<figure>
+ <img height="300px" src="/img/ship-crew/crew.jpg">
+<figcaption>The Crew</figcaption>
+</figure>
+</div>
+#+END_HTML
+
+Richard Geller was never my teacher. He was my colleague and friend.
+
+He introduced me to fine dining and wine. We talked food, biking, and
+teaching.
 
 
 
 
-sdadsdadasdasdsadasdsadsa dsa dsa das da sd as dsa d
-
-
-
-Rich Gellers SIde
 
 #+begin_html
 </div>
