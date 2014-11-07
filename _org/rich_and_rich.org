@@ -1,0 +1,58 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Rich and Rich - two legends on opposite sides of the hall
+tags:  
+---
+#+end_html
+ 
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+Last Tuesady was Election day - no students in the school - a day
+devoted to professionakl development. Traditionally, math team coaches
+from around the city descend on Stuy for a day full of lectures,
+discussion, and general catching up. I've never actually attended
+these meetings. In the past, they were math team coach only and this
+year, I was actually allowed to do something with the CS teacehrs.
+
+These meetings used to be organized by my late friend and Colleague,
+Rich Geller so it made sense that we took time at end of the day to
+honor his memory and unveil a memorial dedicated to Rich and his
+work. Rich was a legendary Stuy teacher, but more on that shortly.
+
+As I looked at Rich's memorial, I couldn't help and turn my head
+around to gaze at another memorial - "celebration" - created to honor
+the memory of another legendary teacher - Richard Rothenberg. 
+
+Both of these men were friends and mentors. I thought I'd dedicate
+this post to some of the things I learned from both of them.
+
+
+#+begin_html
+<div class="row">
+<div class="c6">
+#+end_html
+Richard Rothernberg, known to me as Richie or Doc was the math chair
+when I star
+
+#+begin_html
+</div>
+#+end_html
+
+#+begin_html
+<div class="c6">
+#+end_html
+ffffffffffffffffff fff
+
+#+begin_html
+</div>
+</div>
+#+end_html
