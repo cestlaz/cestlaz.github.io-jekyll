@@ -16,7 +16,9 @@ div.center {text-align:center;}
 </style>
 #+end_html
 
-Last Tuesady was Election day - no students in the school - a day
+We'll get back to CS content soon, but for now:
+
+Last Tuesday was Election day - no students in the school - a day
 devoted to professionakl development. Traditionally, math team coaches
 from around the city descend on Stuy for a day full of lectures,
 discussion, and general catching up. I've never actually attended
@@ -41,7 +43,15 @@ this post to some of the things I learned from both of them.
 <div class="c6">
 #+end_html
 Richard Rothernberg, known to me as Richie or Doc was the math chair
-when I star
+when I was a senior. He taught AP Computer Science that year and he
+hired me back a few years later.
+
+He didn't give me my first teaching gig. He knew that I had to go
+somewhere else to develop my chops. We did stay in touch, though, and
+he hired me two and a half years later.
+
+Doc was an amazing teacher but he was also someone who worked
+tirelessly behind the scenes for the good of his students.
 
 #+begin_html
 </div>
