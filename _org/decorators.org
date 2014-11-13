@@ -1,0 +1,193 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Forty minutes to the punch line or "we'll never look at functions the same way again""
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+* 
+How many times do we teach something and leave the kids thinking:
+
+"what's the point of this?" "When will I use this?" or even just the
+plain old fashioned "that's weird."
+
+It's pretty cool when a lesson starts out that way but you get to the
+payoff by the end of the class.
+
+Today we started exploring some advanced python.
+
+We started by showing that you can assign functions to variables or
+pass them as parameters:
+
+#+begin_src python
+  def inc(x):
+      return x+1
+  def dec(x):
+      return x-1
+
+  f = inc
+  print f(5)
+
+  flist = [inc,dec]
+
+  print flist[1](5)
+#+end_src
+
+We then looked at closures in python:
+
+#+begin_src python
+  def makeAdder(n):
+      def inner(x):
+          return x+n
+      return inner
+
+  add3 = makeAdder(3)
+  add5 = makeAdder(5)
+
+  print add3(10)
+  print add5(10)
+#+end_src
+
+The idea that we can make a function that builds and returns a
+function. When we call **makeAdder(3)**, the 3 is passed as parameter
+n so the inner function reduces to **return x+3** and then we return
+that inner function. When we later run it: add3(10) it adds
+10+3. makeAdder(5) works similarly but passing a 5 in for n instead
+of a 3.
+
+Even a somewhat clunky way of doing class type abstractions:
+
+#+begin_src python
+  def make_counter():
+      # private "instance" data
+      # has to be a list due to weird python scoping rules
+      count = [0]
+
+      # public methods
+      def inc():
+          count[0]=count[0]+1
+      def dec():
+          count[0]=count[0]-1
+      def reset():
+          count[0]=0
+      def get():
+          return count[0]
+
+      # send back a dictionary so we have access to all the methods
+      return {'inc': inc, 'dec': dec, 'reset': reset, 'get': get}
+
+  c1 = make_counter()
+  c2 = make_counter()
+
+  # we've got to use the clunky list notation 
+  c1['inc']()
+  c1['inc']()
+  c1['inc']()
+  print c1['get']()
+  c2['inc']()
+  print c2['get']()
+  c1['reset']()
+  print c1['get']()
+#+end_src
+
+Up to now the students are able to see how this works but the why is
+unclear.
+
+So now we'll look at where this is useful.
+
+Let's suppose we have routines like the following. It returns a
+string:
+
+#+begin_src python
+  import random
+  def get_name():
+      names = ['tom','sue','harry','lisa','sarah','horatio']
+      return random.choice(names)
+#+end_src
+
+get_name and routines like it might be scattered throughout our
+code. Let's suppose, for some strange reason, we want to double the
+name every time we use it. A "traditional" way of doing this might be:
+
+#+begin_src python
+  def dble(f):
+      name = f()
+      return name+name
+
+  print dble(get_name) # returns something like tomtom
+#+end_src
+
+Here, we pass a function which returns a string and then dble returns
+that string repeated twice. The problem here is that if we've got
+get_name all over our code base, we have to find it and change each
+instance to **dble(get_name)**
+
+What if we write it as a function that returns a function:
+
+#+begin_src python
+  def doubler(f):
+      def inner():
+          name=f()
+          return name+name
+      return inner
+#+end_src
+
+Now, in this case, we can do something like:
+
+#+begin_src python
+# make a new function that wraps get_name in "inner"
+# when we call inner, it returns the string twice
+f = doubler(get_name)
+# and then later
+print f() # will print something like tomtom
+#+end_src
+
+The cool part is that we can also do this:
+
+#+begin_src python
+  get_name = double(get_name)
+#+end_src
+
+And then whenever we call our new **get_name** we end up calling the
+wrapped function. 
+
+This was the first A-ha. We don't have to change get_name all over our
+code base - we only have to change it once.
+
+Once we write a function like doubler, instead of re-assigning
+get_name as we did above, we can do the following:
+
+#+begin_src python
+  @doubler
+  def get_name():
+      # rest of code as defined above
+
+  @doubler():
+  def demo():
+      return "hello"
+#+end_src
+
+The second example will have demo return "hellohello" whenever we
+invoke it.
+
+A Python decorator is merely shorthand for calling a wrapper type
+function like doubler.
+
+This was the second A-ha moment -- we can write functions that
+transform functions.
+
+We'll cover more decorator and closure plumbing tomorrow and then
+start doing some fun stuff with these concepts.
+
+
