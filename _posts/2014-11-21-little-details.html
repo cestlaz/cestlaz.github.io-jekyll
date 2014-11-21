@@ -29,11 +29,11 @@ First cut:
 </p>
 <div class="org-src-container">
 
-<pre class="src src-java"><span style="color: #a020f0;">public</span> <span style="color: #a020f0;">class</span> <span style="color: #228b22;">wl</span> {
-    <span style="color: #a020f0;">public</span> <span style="color: #a020f0;">static</span> <span style="color: #228b22;">void</span> <span style="color: #0000ff;">main</span>(<span style="color: #228b22;">String</span>[] <span style="color: #a0522d;">args</span>) {
-        <span style="color: #228b22;">Scanner</span> <span style="color: #a0522d;">sc</span> = <span style="color: #a020f0;">new</span> <span style="color: #228b22;">Scanner</span>(<span style="color: #a020f0;">new</span> <span style="color: #228b22;">File</span>(<span style="color: #8b2252;">"words"</span>));
-        <span style="color: #a020f0;">while</span> (sc.hasNext()){
-            <span style="color: #228b22;">String</span> <span style="color: #a0522d;">s</span> = sc.next();
+<pre class="src src-java"><span style="color: #00ffff; font-weight: bold;">public</span> <span style="color: #00ffff; font-weight: bold;">class</span> <span style="color: #00ff00;">wl</span> {
+    <span style="color: #00ffff; font-weight: bold;">public</span> <span style="color: #00ffff; font-weight: bold;">static</span> <span style="color: #00ff00;">void</span> <span style="color: #0000ff; font-weight: bold;">main</span>(<span style="color: #00ff00;">String</span>[] <span style="color: #ffff00;">args</span>) {
+        <span style="color: #00ff00;">Scanner</span> <span style="color: #ffff00;">sc</span> = <span style="color: #00ffff; font-weight: bold;">new</span> <span style="color: #00ff00;">Scanner</span>(<span style="color: #00ffff; font-weight: bold;">new</span> <span style="color: #00ff00;">File</span>(<span style="color: #00ff00;">"words"</span>));
+        <span style="color: #00ffff; font-weight: bold;">while</span> (sc.hasNext()){
+            <span style="color: #00ff00;">String</span> <span style="color: #ffff00;">s</span> = sc.next();
             System.out.println(s);
         }
     }
@@ -58,13 +58,16 @@ with files:
 
 <div class="org-src-container">
 
-<pre class="src src-java"><span style="color: #a020f0;">try</span> {
-    <span style="color: #228b22;">Scanner</span> <span style="color: #a0522d;">sc</span> = <span style="color: #a020f0;">new</span> <span style="color: #228b22;">Scanner</span>(<span style="color: #a020f0;">new</span> <span style="color: #228b22;">File</span>(<span style="color: #8b2252;">"words"</span>));
-    <span style="color: #a020f0;">while</span> (sc.hasNext()){
-        <span style="color: #228b22;">String</span> <span style="color: #a0522d;">s</span> = sc.next();
+<pre class="src src-java"><span style="color: #00ffff; font-weight: bold;">try</span> {
+    <span style="color: #00ff00;">Scanner</span> <span style="color: #ffff00;">sc</span> = <span style="color: #00ffff; font-weight: bold;">new</span> <span style="color: #00ff00;">Scanner</span>(<span style="color: #00ffff; font-weight: bold;">new</span> <span style="color: #00ff00;">File</span>(<span style="color: #00ff00;">"words"</span>));
+    <span style="color: #00ffff; font-weight: bold;">while</span> (sc.hasNext()){
+        <span style="color: #00ff00;">String</span> <span style="color: #ffff00;">s</span> = sc.next();
         System.out.println(s);
     }
-} <span style="color: #a020f0;">catch</span> (<span style="color: #228b22;">Exception</span> <span style="color: #a0522d;">e</span>){}
+} <span style="color: #00ffff; font-weight: bold;">catch</span> (<span style="color: #00ff00;">Exception</span> <span style="color: #ffff00;">e</span>){
+    System.out.println(<span style="color: #00ff00;">"Can't open file."</span>);
+    System.exit(0);
+}
 </pre>
 </div>
 
@@ -73,12 +76,15 @@ But we don't want to wrap our entire program in an exception:
 </p>
 <div class="org-src-container">
 
-<pre class="src src-java"><span style="color: #a020f0;">try</span> {
-    <span style="color: #228b22;">Scanner</span> <span style="color: #a0522d;">sc</span> = <span style="color: #a020f0;">new</span> <span style="color: #228b22;">Scanner</span>(<span style="color: #a020f0;">new</span> <span style="color: #228b22;">File</span>(<span style="color: #8b2252;">"words"</span>));
-} <span style="color: #a020f0;">catch</span> (<span style="color: #228b22;">Exception</span> <span style="color: #a0522d;">e</span>){}
+<pre class="src src-java"><span style="color: #00ffff; font-weight: bold;">try</span> {
+    <span style="color: #00ff00;">Scanner</span> <span style="color: #ffff00;">sc</span> = <span style="color: #00ffff; font-weight: bold;">new</span> <span style="color: #00ff00;">Scanner</span>(<span style="color: #00ffff; font-weight: bold;">new</span> <span style="color: #00ff00;">File</span>(<span style="color: #00ff00;">"words"</span>));
+} <span style="color: #00ffff; font-weight: bold;">catch</span> (<span style="color: #00ff00;">Exception</span> <span style="color: #ffff00;">e</span>){
+    System.out.println(<span style="color: #00ff00;">"Can't open file."</span>);
+    System.exit(0);
+}
 
-<span style="color: #a020f0;">while</span> (sc.hasNext()){
-    <span style="color: #228b22;">String</span> <span style="color: #a0522d;">s</span> = sc.next();
+<span style="color: #00ffff; font-weight: bold;">while</span> (sc.hasNext()){
+    <span style="color: #00ff00;">String</span> <span style="color: #ffff00;">s</span> = sc.next();
     System.out.println(s);
 
 }
@@ -92,13 +98,16 @@ try catch block (if an exception occurred), so we need:
 </p>
 <div class="org-src-container">
 
-<pre class="src src-java"><span style="color: #228b22;">Scanner</span> <span style="color: #a0522d;">sc</span>
-<span style="color: #a020f0;">try</span> {
-    sc = <span style="color: #a020f0;">new</span> <span style="color: #228b22;">Scanner</span>(<span style="color: #a020f0;">new</span> <span style="color: #228b22;">File</span>(<span style="color: #8b2252;">"words"</span>));
-} <span style="color: #a020f0;">catch</span> (<span style="color: #228b22;">Exception</span> <span style="color: #a0522d;">e</span>){}
+<pre class="src src-java"><span style="color: #00ff00;">Scanner</span> <span style="color: #ffff00;">sc</span>
+<span style="color: #00ffff; font-weight: bold;">try</span> {
+    sc = <span style="color: #00ffff; font-weight: bold;">new</span> <span style="color: #00ff00;">Scanner</span>(<span style="color: #00ffff; font-weight: bold;">new</span> <span style="color: #00ff00;">File</span>(<span style="color: #00ff00;">"words"</span>));
+} <span style="color: #00ffff; font-weight: bold;">catch</span> (<span style="color: #00ff00;">Exception</span> <span style="color: #ffff00;">e</span>){
+    System.out.println(<span style="color: #00ff00;">"Can't open file."</span>);
+    System.exit(0);
+}
 
-<span style="color: #a020f0;">while</span> (sc.hasNext()){
-    <span style="color: #228b22;">String</span> <span style="color: #a0522d;">s</span> = sc.next();
+<span style="color: #00ffff; font-weight: bold;">while</span> (sc.hasNext()){
+    <span style="color: #00ff00;">String</span> <span style="color: #ffff00;">s</span> = sc.next();
     System.out.println(s);
 
 }
@@ -114,22 +123,23 @@ finally get to the working version:
 
 <div class="org-src-container">
 
-<pre class="src src-java"><span style="color: #a020f0;">import</span> <span style="color: #008b8b;">java</span>.<span style="color: #008b8b;">io</span>.*;
-<span style="color: #a020f0;">import</span> <span style="color: #008b8b;">java</span>.<span style="color: #008b8b;">util</span>.*;
-<span style="color: #a020f0;">publ</span><span style="color: #228b22;">ic c</span><span style="color: #a020f0;">lass</span> <span style="color: #228b22;">wl</span> {
-    <span style="color: #a020f0;">public</span> <span style="color: #a020f0;">static</span> <span style="color: #228b22;">void</span> <span style="color: #0000ff;">main</span>(<span style="color: #228b22;">String</span>[] <span style="color: #a0522d;">args</span>) {
-        <span style="color: #228b22;">Scanner</span> <span style="color: #a0522d;">sc</span> = <span style="color: #008b8b;">null</span>;
-        <span style="color: #a020f0;">try</span> {
-                sc = <span style="color: #a020f0;">new</span> <span style="color: #228b22;">Scanner</span>(<span style="color: #a020f0;">new</span> <span style="color: #228b22;">File</span>(<span style="color: #8b2252;">"words"</span>));
-        } <span style="color: #a020f0;">catch</span> (<span style="color: #228b22;">Exception</span> <span style="color: #a0522d;">e</span>){}
-<span style="color: #a020f0;">while</span> (sc.hasNext()){
-            <span style="color: #228b22;">String</span> <span style="color: #a0522d;">s</span> = sc.next();
-            System.out.println(<span style="color: #228b22;">s</span>);
+<pre class="src src-java"><span style="color: #00ffff; font-weight: bold;">import</span> <span style="color: #ff00ff;">java</span>.<span style="color: #ff00ff;">io</span>.*;
+<span style="color: #00ffff; font-weight: bold;">import</span> <span style="color: #ff00ff;">java</span>.<span style="color: #ff00ff;">util</span>.*;
+<span style="color: #00ffff; font-weight: bold;">publ</span><span style="color: #00ff00;">ic c</span><span style="color: #00ffff; font-weight: bold;">lass</span> <span style="color: #00ff00;">wl</span> {
+    <span style="color: #00ffff; font-weight: bold;">public</span> <span style="color: #00ffff; font-weight: bold;">static</span> <span style="color: #00ff00;">void</span> <span style="color: #0000ff; font-weight: bold;">main</span>(<span style="color: #00ff00;">String</span>[] <span style="color: #ffff00;">args</span>) {
+        <span style="color: #00ff00;">Scanner</span> <span style="color: #ffff00;">sc</span> = <span style="color: #ff00ff;">null</span>;
+        <span style="color: #00ffff; font-weight: bold;">try</span> {
+                sc = <span style="color: #00ffff; font-weight: bold;">new</span> <span style="color: #00ff00;">Scanner</span>(<span style="color: #00ffff; font-weight: bold;">new</span> <span style="color: #00ff00;">File</span>(<span style="color: #00ff00;">"words"</span>));
+        } <span style="color: #00ffff; font-weight: bold;">catch</span> (<span style="color: #00ff00;">Exception</span> <span style="color: #ffff00;">e</span>){
+            System.out.println(<span style="color: #00ff00;">"Can't open file."</span>);
+            System.exit(0);
+        }
+        <span style="color: #00ffff; font-weight: bold;">while</span> (sc.hasNext()){
+            <span style="color: #00ff00;">String</span> <span style="color: #ffff00;">s</span> = sc.next();
+            System.out.println(<span style="color: #00ff00;">s</span>);
 
         }
-
     }
-
 }
 </pre>
 </div>

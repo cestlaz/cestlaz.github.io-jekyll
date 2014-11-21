@@ -56,14 +56,20 @@ with files:
           String s = sc.next();
           System.out.println(s);
       }
-  } catch (Exception e){}
+  } catch (Exception e){
+      System.out.println("Can't open file.");
+      System.exit(0);
+  }
 #+end_src
 
 But we don't want to wrap our entire program in an exception:
 #+begin_src java
   try {
       Scanner sc = new Scanner(new File("words"));
-  } catch (Exception e){}
+  } catch (Exception e){
+      System.out.println("Can't open file.");
+      System.exit(0);
+  }
 
   while (sc.hasNext()){
       String s = sc.next();
@@ -76,16 +82,19 @@ But we don't want to wrap our entire program in an exception:
 Now it doesn't work because the **Scanner sc** might not exist after the
 try catch block (if an exception occurred), so we need:
 #+begin_src java
-  Scanner sc
-  try {
-      sc = new Scanner(new File("words"));
-  } catch (Exception e){}
+    Scanner sc
+    try {
+        sc = new Scanner(new File("words"));
+    } catch (Exception e){
+        System.out.println("Can't open file.");
+        System.exit(0);
+    }
 
-  while (sc.hasNext()){
-      String s = sc.next();
-      System.out.println(s);
-      
-  }
+    while (sc.hasNext()){
+        String s = sc.next();
+        System.out.println(s);
+        
+    }
 #+end_src
 
 
@@ -94,23 +103,24 @@ finally get to the working version:
 
 
 #+begin_src java
-import java.io.*;
-import java.util.*;
-public class wl {
-		public static void main(String[] args) {
-				Scanner sc = null;
-				try {
-								sc = new Scanner(new File("words"));
-				} catch (Exception e){}
-while (sc.hasNext()){
-						String s = sc.next();
-						System.out.println(s);
-
-				}
-						
-		}
-
-}
+  import java.io.*;
+  import java.util.*;
+  public class wl {
+      public static void main(String[] args) {
+          Scanner sc = null;
+          try {
+                  sc = new Scanner(new File("words"));
+          } catch (Exception e){
+              System.out.println("Can't open file.");
+              System.exit(0);
+          }
+          while (sc.hasNext()){
+              String s = sc.next();
+              System.out.println(s);
+              
+          }
+      }
+  }
 #+end_src
 
 
