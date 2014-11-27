@@ -1,0 +1,139 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Little details we take for granted
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+ 
+* 
+I'm getting ready for my AP classes this morning. We're building a
+[[http://cestlaz.github.io/2011/12/03/wheres-waldo-text-style.html#.VG8qtt-c2Ak][word search generator]] and we're at the point where we need to read a
+list of words from a file
+
+First, I'd better make sure I can do it. We're using the java
+**scanner**, mostly because it's easy.
+
+First cut:
+#+begin_src java
+  public class wl {
+      public static void main(String[] args) {
+          Scanner sc = new Scanner(new File("words"));
+          while (sc.hasNext()){
+              String s = sc.next();
+              System.out.println(s);
+          }
+      }
+  }
+#+end_src
+
+
+Oh yes, I forgot the
+#+begin_src 
+  import java.io.*;
+  import java.util.*;
+#+end_src
+
+
+Oh, and also the fact that I've got deal with exceptions when working
+with files:
+
+#+begin_src java
+  try {
+      Scanner sc = new Scanner(new File("words"));
+      while (sc.hasNext()){
+          String s = sc.next();
+          System.out.println(s);
+      }
+  } catch (Exception e){
+      System.out.println("Can't open file.");
+      System.exit(0);
+  }
+#+end_src
+
+But we don't want to wrap our entire program in an exception:
+#+begin_src java
+  try {
+      Scanner sc = new Scanner(new File("words"));
+  } catch (Exception e){
+      System.out.println("Can't open file.");
+      System.exit(0);
+  }
+
+  while (sc.hasNext()){
+      String s = sc.next();
+      System.out.println(s);
+      
+  }
+#+end_src
+
+
+Now it doesn't work because the **Scanner sc** might not exist after the
+try catch block (if an exception occurred), so we need:
+#+begin_src java
+    Scanner sc
+    try {
+        sc = new Scanner(new File("words"));
+    } catch (Exception e){
+        System.out.println("Can't open file.");
+        System.exit(0);
+    }
+
+    while (sc.hasNext()){
+        String s = sc.next();
+        System.out.println(s);
+        
+    }
+#+end_src
+
+
+And now this doesn't work because **sc** might not have a value so we
+finally get to the working version:
+
+
+#+begin_src java
+  import java.io.*;
+  import java.util.*;
+  public class wl {
+      public static void main(String[] args) {
+          Scanner sc = null;
+          try {
+                  sc = new Scanner(new File("words"));
+          } catch (Exception e){
+              System.out.println("Can't open file.");
+              System.exit(0);
+          }
+          while (sc.hasNext()){
+              String s = sc.next();
+              System.out.println(s);
+              
+          }
+      }
+  }
+#+end_src
+
+
+Really simple program but that's a long list of things that can go
+wrong along the way. Nothing big, but each a stumbling block for a
+beginning student that doesn't have the wealth of experience that
+someone like me has. 
+
+I had an interesting discussion with one of my seniors the other day
+on this subject - all the base knowledge that experienced programmers
+have that students don't and how we have to approach teaching so that
+students are supported and not frustrated by these little but
+important speed-bumps that they'll hit along the way.
+
+I hope to write more about this soon, but for now I'll leave you to
+ponder the issue.
