@@ -48,11 +48,27 @@ and
    career has been "Math Ed." I fear CS Ed will have the same effect
    on K12 CS education.
 
+Maybe I'm a pessimist or maybe I've just been burned one to many times
+or maybe it's that as a public school teacher I see the negative
+effect of politics and money on public education.
+
+On the other hand, even if I'm write and the powers that be really
+screw things up,there should always be at least a few people who see
+through they hype and that's where I can continue to do positive work.
+
+
 * On Python continuing to grow
 
-It's been one of my go to languages for a while now. I don't see it
-replacing Java in AP CS and it looks like Scratch has the inside track
-CS Principles.
+It's been one of my go to languages for a while now. I've been using
+it in and out of classes since some time in the mid 90s.
+
+I don't see it replacing Java in AP CS and it looks like Scratch has
+the inside track CS Principles but it's good for so many things and
+has such a low cost of entry, I again agree with Alfred.
+
+The fact that it's easy for a non-cs teacher to pick up, at least to a
+limited degree, will certainly help the charge. I'm not sure if long
+term, this is a good thing, but it will help to push python's growth in education.
 
 * On CS Principles
 
@@ -60,6 +76,8 @@ I do see a time where the course is forced on me and my team but I'm
 not worrying about it for the moment. I think we already teach a
 stronger course and by the time CS Principles becomes an issue at
 Stuy, I'll probably be gone.
+
+
 
 * Chromebooks
 
