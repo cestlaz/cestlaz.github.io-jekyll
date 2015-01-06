@@ -7,6 +7,9 @@ tags:
 ---
 
 
+Zabari - how to regex in find (characters not escpaed?)
+he really wanted to solve a search button problem
+
 Zane -- how do you store a list in sql
 he really Wanted - users have tags how do we store them 
 
