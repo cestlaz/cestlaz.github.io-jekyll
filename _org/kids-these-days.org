@@ -41,7 +41,7 @@ now. It was hot during the 90's bubble. I'm sure the fact that a wider
 range of kids are being exposed to CS is part of this phenomenon but
 I don't think it's the biggest reason.
 
-I think CS kids back then new more -- more of the players, more of the
+I think CS kids back then knew more -- more of the players, more of the
 tools, more about the systems because they had to. In some ways, and I
 know I'm vastly overstating things, it's "too easy" now.
 
