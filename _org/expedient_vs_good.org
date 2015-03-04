@@ -51,9 +51,16 @@ teachers with a deep knowledge of CS.
 The SEP was originally developed by someone, who, according to his
 linked in profile never coded and never taught.
 
-I could be wrong about BGP. It was developed by Dan Garcia - an
-educator whom I like and respect, but as far as I know, his experience
-is at the college level. 
+Now BGP is indeed developed by an experienced educator, Dan Garcia and
+in fact an educator that I like and respect. We differ in that he
+believes drag and drop is appropriate for a college level or high
+school course and I'm in the other camp. I'd also say there are a lot
+of good ideas in BGP. In fact if you look at BGP, it hits on a number
+of the points I put into my intro course that we use at Stuy in the
+mid to late 90s. My point here is that I'm pretty sure Dan has spent
+most if not all of his carreer as a college educator not a high school
+one. Even with only  my brief dabbling in front of a college class
+it's easy to tell that they are different beasts.
 
 And Google's CS First? I've been very impressed by Google's engineers,
 in fact, many are my former students. It's high school education team?
