@@ -5,7 +5,7 @@
 ---
 published: true
 layout: post
-title: What's Expedient vs what's good - curriculum vs teachers
+title: What's Expedient vs What's Good - Curriculum vs Teachers
 tags:  
 ---
 #+end_html
@@ -24,17 +24,21 @@ If we don't do anything then only schools like Stuy will have CS.
 I heard that the other day. It was a comment relating to a number of
 efforts, both in and out of  NY to get CS into the classroom.
 
-These programs abound and up front let me say that they're all well
-meaning and have the best of intentions.
+These programs abound.
+
+Let me say that they're all well meaning and have the best of
+intentions.
 
 In NYC, programs receiving money, publicity, and support, include:
 
 - The Software Engineering Pilot (SEP)
-- Google CS First afterschool
-- The NSF grant bring the Beauty and Joy of Computing class to NYC (BGP)
+- Google's CS First afterschool
+- The NSF grant bringing the Beauty and Joy of Computing class to NYC (BGP)
 
-Terrific -- we'll scale up CS ed in NY from nothing to everyone in no
-time. It's fast, it scales. But is it good.
+Sounds terrific -- we'll scale up CS ed in NY from nothing to reaching everyone in no
+time.
+
+ It's fast, it scales. But is it good?
 
 * 
 I'd argue that maybe it's not. These programs all share a few things
@@ -43,28 +47,30 @@ in common.
 First, they're all expedient. You can implement them in an election
 cycle. Roll out a pre-fab curriculum with scripted lessons, give the
 teachers a summer and some weekend workshops and we're good to go. No
-CS knowledge needed.
+CS knowledge needed. In Google's case, you don't need a CS teacher at all. 
 
 Next, as far as I can tell, none were developed by experienced high school
 teachers with a deep knowledge of CS. 
 
-The SEP was originally developed by someone, who, according to his
-linked in profile never coded and never taught.
+The guy who was running the show at DOE when SEP was originally
+developed has a linked in profile the doesn't include any teaching nor
+any coding jobs.
 
 Now BGP is indeed developed by an experienced educator and in fact an
 educator that I like and respect - Dan Garcia. We differ in that he
 believes drag and drop is appropriate for a college level or high
 school course and I'm in the other camp. I'd also say there are a lot
 of good ideas in BGP. In fact if you look at BGP, it hits on a number
-of the points I put into the intro course Stuy has used since I
-created it in the mid to late 90s. My point here is that I'm pretty
-sure Dan has spent most if not all of his carreer as a college
-educator not a high school one. Even with only my brief dabbling in
-front of a college class it's easy to tell that they are different
-beasts.
+of the points I put into the intro course that Stuy has used since I
+created it in the mid to late 90s. 
+
+My point here is that I'm pretty sure Dan has spent most if not all of
+his career as a college educator not a high school educator. Even with
+my brief amount of dabbling in front of a college class it's easy to tell
+that they are different beasts.
 
 And Google's CS First? I've been very impressed by Google's engineers,
-in fact, many are my former students. It's high school education team?
+in fact, many are my former students. Their high school education team?
 Not so much.
 
 Finally, these efforts buy into the myth that anyone can teach and
@@ -72,16 +78,17 @@ that anyone can teach computer science. Even worse, the Google CS
 First claims people running their program don't need to know a thing
 about computer science.
 
-Anyone who knows teaching knows that you can't learn a subject well
-enough to reall teach it in such a short period of time. Of course,
-it does align itself with education "reform" where the true master
-teacher is no longer desirable and we should all be drones that teach
-lessons from scripts and all testing shall be standardized.
+Anyone who knows teaching and education knows that you can't learn a
+subject well enough to really teach it in a summer or a similarly
+short period of time.  On the other hand these plans do align
+themselves with education "reform" where the true master teacher is no
+longer desirable and we should all be drones that teach lessons from
+scripts and all testing shall be standardized.
 
-I rememer the first time I saw a progarm like this - it was the CISCO
+I remember the first time I saw a program like this - it was the CISCO
 Networking Academy. Teachers trained for a few weeks in the summer and
 the course was basically run via computer based tutorials. I can't
-speak for it nationally but in my experience, what the students
+speak for it nationally but in my experience, what students
 learned was superficial - very test oriented and there was no value
 added by the teacher - even after years of "teaching" the
 classes. There's a reason why the few networking lessons in our System
@@ -97,7 +104,7 @@ The fact is, that got a "Computer Networking" class into the
 schools. It might have been meant as a stop-gap until we could get
 real Computer Networking teachers hired or trained but it ended up
 being good enough. The end result -- bad classes and students not
-learning what they could.
+learning what they could or should.
 
 The counter argument is of course that "we can't do anything else
 right now. It's this or we don't have any CS."
@@ -112,30 +119,36 @@ good enough.
 I'd argue that for CS, good enough is particularly dangerous. It's
 very easy to work through a scripted and coached program and end up
 with kids thinking they know some real CS and have a real product yet
-having not really learned the subject. This won't be exposed until
-later, when they're gone and in college. I predict that unless
-something changes, these efforts and similar ones will drive up the
-number of people who after this exposure will say they love CS but
-once they get hit over the head with "funcitonal programming in
-HASKELL" or whatever real CS they see in college, they'll drop like
-flies.
+having not really learned the subject. 
+
+This won't be exposed until later, when they're gone and in college.
+I predict that unless something changes, these efforts and similar
+ones will drive up the number of people who after this exposure will
+say they love CS but once they get hit over the head with "functional
+programming in Haskell" or whatever real CS they see in college,
+they'll drop like flies.
 * 
 What's the answer? We've got to stop doing what's expedient and do
 what's good and what's right.
 
 Building teachers and building a program, just like real meaningful
-education take time. 
+education, takes time. 
 
 Over the years, I've pleaded with NYC, our DOE, and Stuy to help us
 get to more programs. Recognize us as CS teachers, not math teachers
 Help us get student teachers into what I've described as student
 teaching on steroids. Encourage teachers on sabbatical to study with
-us and help us to build a community of budding CS teachrs. Once we
+us and help us to build a community of budding CS teachers. Once we
 start getting them, we can build custom programs and roll them out
 **with support** from this very same community.
 
-We've done this informally over my career but it's become so much of a
-fight to even keep things afloat I'm now looking to leave DOE.
+Unfortunately, no one seems interested - to the point that I've all
+but given up. At this point my future looks to lie outside of the
+public sector.
+
+We'll see what the future holds for CS education but I wouldn't be
+surprised if my concerns become reality.
+
 
 
 * Part 2
