@@ -51,16 +51,17 @@ teachers with a deep knowledge of CS.
 The SEP was originally developed by someone, who, according to his
 linked in profile never coded and never taught.
 
-Now BGP is indeed developed by an experienced educator, Dan Garcia and
-in fact an educator that I like and respect. We differ in that he
+Now BGP is indeed developed by an experienced educator and in fact an
+educator that I like and respect - Dan Garcia. We differ in that he
 believes drag and drop is appropriate for a college level or high
 school course and I'm in the other camp. I'd also say there are a lot
 of good ideas in BGP. In fact if you look at BGP, it hits on a number
-of the points I put into my intro course that we use at Stuy in the
-mid to late 90s. My point here is that I'm pretty sure Dan has spent
-most if not all of his carreer as a college educator not a high school
-one. Even with only  my brief dabbling in front of a college class
-it's easy to tell that they are different beasts.
+of the points I put into the intro course Stuy has used since I
+created it in the mid to late 90s. My point here is that I'm pretty
+sure Dan has spent most if not all of his carreer as a college
+educator not a high school one. Even with only my brief dabbling in
+front of a college class it's easy to tell that they are different
+beasts.
 
 And Google's CS First? I've been very impressed by Google's engineers,
 in fact, many are my former students. It's high school education team?
@@ -98,32 +99,47 @@ real Computer Networking teachers hired or trained but it ended up
 being good enough. The end result -- bad classes and students not
 learning what they could.
 
+The counter argument is of course that "we can't do anything else
+right now. It's this or we don't have any CS."
 * 
 So here we are back again at the "let's take non CS teachers, give
-them some PD and we'll be good." Rather than take the time to solve
+them some PD and we'll be good to go." Rather than take the time to solve
 the CS Education problem, we're going to throw down a curriculum, do
 some PD and say that it will buy us time. The truth is, however, that
 we're going to say "look, we have CS in the schools" and it will be
 good enough. 
 
-I'd argue, though that for CS, good enough is particularly
-dangerous. It's very easy to work through a scripted and coached
-program and end up with kids thinking they know some real CS and have
-a real product yet having not really learned the subject. This won't
-be exposed until later, when they're gone and in college. I predict
-that unless something changes, these efforts and similar ones will
-drive up the  number of people who after this exposure will say they
-love CS but once they get hit over the head with "funcitonal
-programming in HASKELL" or whatever real CS they see in college,
-they'll drop like flies.
+I'd argue that for CS, good enough is particularly dangerous. It's
+very easy to work through a scripted and coached program and end up
+with kids thinking they know some real CS and have a real product yet
+having not really learned the subject. This won't be exposed until
+later, when they're gone and in college. I predict that unless
+something changes, these efforts and similar ones will drive up the
+number of people who after this exposure will say they love CS but
+once they get hit over the head with "funcitonal programming in
+HASKELL" or whatever real CS they see in college, they'll drop like
+flies.
 * 
 What's the answer? We've got to stop doing what's expedient and do
 what's good and what's right.
 
+Building teachers and building a program, just like real meaningful
+education take time. 
+
+Over the years, I've pleaded with NYC, our DOE, and Stuy to help us
+get to more programs. Recognize us as CS teachers, not math teachers
+Help us get student teachers into what I've described as student
+teaching on steroids. Encourage teachers on sabbatical to study with
+us and help us to build a community of budding CS teachrs. Once we
+start getting them, we can build custom programs and roll them out
+**with support** from this very same community.
+
+We've done this informally over my career but it's become so much of a
+fight to even keep things afloat I'm now looking to leave DOE.
 
 
 * Part 2
 
 A couple of other blog itches I want to scratch are the many after
-school, summer, and drop in programs to go with the there I mentioned
+school, summer, and drop in programs to go with the programs I mentioned
 above. Hopefully I'll get to rant about them soon.
