@@ -32,7 +32,7 @@ We're working on advanced JavaScript while also looking at
 [[backbonejs.org][Backbone.js]]. 
 
 Now, as sometimes happens, Batya, while in her CS class up at college,
-decided to open up a at with me. This happens now and then. We try to
+decided to open up a Google chat with me. This happens now and then. We try to
 have some fun with it. We actually have a plan to mess with the kids
 later this term, but I'll keep that to myself.
 
