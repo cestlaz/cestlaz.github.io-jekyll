@@ -71,14 +71,14 @@ First problem --the upper case F -- let's use **tr** to make
 everything lower case:
 
 #+begin_src bash
-cat e1 e2 | sort | tr A-Z a-z
+cat e1 e2 |  tr A-Z a-z | sort
 #+end_src
 
 Now we can see the duplicates next to each other. Next, **uniq
 -c** tells us how many times each line appears:
 
 #+begin_src bash
-cat e1 e2 | sort | tr A-Z a-z | uniq -c | sort
+cat e1 e2 | tr A-Z a-z | sort | uniq -c | sort
 #+end_src
 
 I added the sort at the end, but we didn't need it.
@@ -102,14 +102,14 @@ that means "any line that starts with 1 or more spaces followed by the
 number 1":
 
 #+begin_src bash
-cat e1 e2 | sort | tr A-z a-z | uniq -c | egrep "^ +1"
+cat e1 e2 | tr A-z a-z | sort | uniq -c | egrep "^ +1"
 #+end_src
 
 and finally to isolate the emails using sed which removes the spaces
 and number 1 from the beginning of the line:
 
 #+begin_src bash
-cat e1 e2 | sort | tr A-z a-z | uniq -c | egrep "^ +1" | sed "s/\ \+1 //g"
+cat e1 e2 | tr A-z a-z | sort | uniq -c | egrep "^ +1" | sed "s/\ \+1 //g"
 #+end_src
 
 Each of the little utilities aren't all too useful by themselves but
