@@ -5,14 +5,131 @@
 ---
 published: true
 layout: post
-title: 
+title: def hack(2015):
 tags:  
 ---
 #+end_html
 
 #+begin_html
 <style>
+.center {text-align:center;}
 div.center {text-align:center;}
 </style>
 #+end_html
+
+
+* 
+#+ATTR_HTML: :width 300px :align center
+[[http:/img/dh2015/dh-logo.png]]
+
+
+This past Saturday, 50 high school students, 10 high school mentors, and 10
+more post high school mentors headed down to [[sumall.com][SumAll]] to participate in
+**def hacks(2015):** [[cstuy.org][CSTUY]]'s first hackathon.
+
+The fifty participants, came from all over the city, Long Island, and
+New Jersey. They ranged from having never programmed to three or four
+years experience. 
+
+Projects ranged from web sites to full stack applications. 
+
+* 
+After workshops run by CSTUY teachers and mentors and also by
+[[http://codesters.com][Codesters.com]] the hackers spread out all over SumAll's offices, working in small
+groups with the support of our amazing mentors.
+
+#+begin_html
+<p style="float:left">
+<figure style="float:left;padding:20px">
+ <img height="300px" " src="/img/dh2015/dh-hacking.jpg">
+</figure>
+<figure style="padding:20px">
+ <img height="300px" " src="/img/dh2015/dh-hacking-2.jpg">
+</figure>
+</p>
+<p style="clear:both"></p>
+#+end_html
+
+* 
+
+Four nourishment, we had sandwiches from [[http://amishintribeca.com/][Amish Market]], pizza from
+Wanted Pizza, snacks and those amazing doughnuts from [[http://doughbrooklyn.com][Dough Flatiron]].
+
+
+#+begin_html
+<p style="float:left">
+<figure style="float:left;padding:20px">
+ <img height="300px" " src="/img/dh2015/dh-food1.jpg">
+</figure>
+<figure style="padding:20px">
+ <img height="300px" " src="/img/dh2015/dh-dough.jpg">
+</figure>
+</p>
+<p style="clear:both"></p>
+#+end_html
+At the end of the day, the hackers demoed and the judges judged
+
+#+begin_html
+<p style="float:left">
+<figure style="float:left;padding:20px">
+ <img height="300px" " src="/img/dh2015/dh-winner-demo.jpg">
+</figure>
+<figure style="padding:20px">
+ <img height="300px" " src="/img/dh2015/dh-demo-1.jpg">
+</figure>
+</p>
+<p style="clear:both"></p>
+
+
+<figure style="float:center;padding:20px;width:100%">
+ <img height="300px" " src="/img/dh2015/dh-judging.jpg">
+</figure>
+<p style="clear:both"></p>
+
+#+end_html
+
+In the end everyone made something terrific and walked away having
+built new skills, met new people, and gotten a little swag.
+
+#+ATTR_HTML: :width 300px :align center
+[[http:/img/dh2015/dh-certificate.jpg]]
+
+* 
+The judges singled out two groups for special
+recognition. One was a team of four experienced programmers who put
+together a full stack app to help schedule parent/teacher meetings.
+
+#+ATTR_HTML: :width 300px :align center
+[[http:/img/dh2015/dh-winner-group.jpg]]
+
+The other was a solo project from a young man who had never programmed
+prior to the event. 
+
+#+ATTR_HTML: :width 300px :align center
+[[http:/img/dh2015/dh-winner-demo-2.jpg]]
+
+That one really blew me away. We were able to give these groups
+Raspberry Pis thanks to a last minute donation from [[http://www.fullstackacademy.com/][Fullstack Academy]].
+
+None of this would have been possible without the help of:
+
+Our organizers - Caitlin and Lise
+
+Our Mentors - both the Stuy students and the older mentors
+
+Our judges:
+
+- Ben Fried (Google)
+- Noah Weiss (Foursqurae)
+- Benny Wong (TimeHop)
+- Gerry Seidman (Too many to list)
+- Davin Chew (SumAll)
+
+and our Sponsors:
+- [[http://timehop.com][TimeHop]]
+- [[http://sumall.com][SumAll]]
+- [[http://digitalocean.com][DigitalOcean]]
+- [[http://www.generalcatalyst.com/][General Catalyst Partners]]
+- [[http://codesters.com][Codesters.com]]
+
 
