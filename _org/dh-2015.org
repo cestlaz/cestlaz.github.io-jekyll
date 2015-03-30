@@ -38,6 +38,7 @@ After workshops run by CSTUY teachers and mentors and also by
 [[http://codesters.com][Codesters.com]] the hackers spread out all over SumAll's offices, working in small
 groups with the support of our amazing mentors.
 
+
 #+begin_html
 <p style="float:left">
 <figure style="float:left;padding:20px">
