@@ -86,7 +86,7 @@ everything lower case:
 
 <div class="org-src-container">
 
-<pre class="src src-bash">cat e1 e2 | sort | tr A-Z a-z
+<pre class="src src-bash">cat e1 e2 |  tr A-Z a-z | sort
 </pre>
 </div>
 
@@ -97,7 +97,7 @@ Now we can see the duplicates next to each other. Next, <b><b>uniq
 
 <div class="org-src-container">
 
-<pre class="src src-bash">cat e1 e2 | sort | tr A-Z a-z | uniq -c | sort
+<pre class="src src-bash">cat e1 e2 | tr A-Z a-z | sort | uniq -c | sort
 </pre>
 </div>
 
@@ -129,7 +129,7 @@ number 1":
 
 <div class="org-src-container">
 
-<pre class="src src-bash">cat e1 e2 | sort | tr A-z a-z | uniq -c | egrep "^ +1"
+<pre class="src src-bash">cat e1 e2 | tr A-z a-z | sort | uniq -c | egrep "^ +1"
 </pre>
 </div>
 
@@ -140,7 +140,7 @@ and number 1 from the beginning of the line:
 
 <div class="org-src-container">
 
-<pre class="src src-bash">cat e1 e2 | sort | tr A-z a-z | uniq -c | egrep "^ +1" | sed "s/\ \+1 //g"
+<pre class="src src-bash">cat e1 e2 | tr A-z a-z | sort | uniq -c | egrep "^ +1" | sed "s/\ \+1 //g"
 </pre>
 </div>
 
