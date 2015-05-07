@@ -1,0 +1,51 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: 
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+Since I wrote a post on my problem with drop in curricula on March 4
+([[http://cestlaz.github.io/2015/03/04/expedient-vs-good.html#.VUtgo5_0-Ak]])
+I've been meaning to follow up with some of my thoughts on after
+school and summer programs. 
+
+This itch was further spurred when I read this post on [[http://avc.com][avc.com]]:
+http://avc.com/2015/03/numbers-can-ruin-a-good-story/. It talks about
+startups - you can have a good story and raise some funds but then
+when numbers, that is, results start to come in, that story might not
+look so good.
+
+The world of CS Education summer and after school programs are full of
+"good stories." My favorite is "your kid will learn how to build an
+iphone app in 4 weeks!!!" If it were that easy, we wouldn't have a
+tech talent shortage and my grads wouldn't be in such high demand. 
+
+The truth is, it's very easy to get by in CS Education on nothing more
+than a good story. You never actually have to show real results. Most
+of the programs out there follow this pattern. I don't think it's
+intentional. It's just that most people running K12 CS Ed programs
+aren't educators and frequently they aren't CS people. What they are
+concerned is scaling so that they can get to as many kids as
+possible. Besides, to them, it appears they're doing great work - they
+buy into their own hype.
+
+How is this accomplished?
+
+Easy.
+
+
+
+
+
