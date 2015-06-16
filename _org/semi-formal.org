@@ -1,0 +1,77 @@
+# +STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: CS Semi Formal
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+
+* 
+Today marked the last day of classes and time for the 8th annual Stuy
+CS Semi Formal.
+
+* 
+What's the Stuy CS Semi Formal? It's another bad idea that we refuse
+to let die. Eight years ago JonAlf joked that someone in class joked
+that they should have a party and they should all get dressed up. My
+thought? "YEAH!!! LET'S DO IT!!!!!"
+
+Eight years later, still going strong.
+
+We cleaned out and decorated the room - classed things up by serving
+cheese, dried fruits, nuts and the like. Drinks served in fake plastic
+"wine" glasses and we encouraged the kids to dress up.
+
+* Pictures from the first year -  2007
+
+#+begin_html
+<p style="float:left">
+<figure style="float:left;padding:20px">
+ <img width="350px" " src="/img/last-day-2015/semi-1.jpg">
+</figure>
+<figure style="padding:20px">
+ <img width="350px" " src="/img/last-day-2015/semi-2.jpg">
+</figure>
+</p>
+<p style="clear:both"></p>
+#+end_html
+
+
+* And from 2011
+
+#+begin_html
+<p style="float:left">
+<figure style="float:left;padding:20px">
+ <img width="350px" " src="/img/last-day-2015/semi-3.jpg">
+</figure>
+<figure style="padding:20px">
+ <img width="350px" " src="/img/last-day-2015/semi-4.jpg">
+</figure>
+</p>
+<p style="clear:both"></p>
+#+end_html
+
+
+Kids can come and go any period they don't have any other class.
+
+It's a signature event and a fun time. Whats more is that throughout
+the day you've got pockets of CS students all dressed to the nines in
+all their other classes.
+
+For the first few years JonAlf and I did the heavy lifting but these
+past two, it's all been the students - particularly Jenny, Miranda,
+and Veronika (apologies if I'm missing anyone).
+
+It's just another event that makes StuyCS unique.
+
