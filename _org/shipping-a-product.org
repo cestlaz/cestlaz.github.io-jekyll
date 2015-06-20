@@ -1,0 +1,90 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Shipping a product
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+* 
+Back in April, I was at the second annual "Dream It, Code It, Win It!"
+awards. Some of our kids had submitted work and were selected as
+awardees in the high school division.
+
+It was great to see [[https://twitter.com/Cahnja][Jack]] and [[https://twitter.com/davcahn][David]] Cahn there. Jack and David were
+both members of winning high school teams last year and they were back
+as college winners this time around.
+
+It was great to see them. 
+
+The Cahn brothers spent some time talking to the current crop. They
+mentioned one thing that really confirmed that I've been on the right
+track with my SoftDev class - they said it was their most valuable
+experiece at Stuy because they learned how to ship a product. To take
+something, as a team, from idea to delivery with all the bumps along
+the way. Now, obviously, we don't do everything - there are no
+questions of funding for instance and I think we cover a lot of great
+CS but giving the kids a chance to learn to take a project from idea
+to delivery and all that entails was a big part of the design of the
+course.
+
+With that in mind, I just finished evaluating projects and here's a
+sampling:
+
+* 
+Stuy kids live all over the city. Nadia, Aida, and Sydney solved the
+problem of where to meet your friends when you live on opposite sides
+of town:
+
+#+begin_html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i_xDQg35T20" frameborder="0" allowfullscreen></iframe>
+#+end_html
+** 
+- Live demo: [[http://meetup.jumpingcrab.com/]]
+- GitHub: [[https://github.com/apiccato/meetup]]
+* 
+Miranda, Leslia, and Anya built a Chrome plugin and server to
+summarize articles:
+
+#+begin_html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pvRf7fPlV6Q" frameborder="0" allowfullscreen></iframe>
+#+end_html
+** 
+- Server: [[http://104.236.53.73/]]
+- Chrome plugin: [[https://chrome.google.com/webstore/detail/dmbibehpblbnkacpmiecigdkcomfkhkm/]]
+- GitHub: [[https://github.com/mchaiken/summarize]]
+
+* 
+and Philipp, Richard, Steve, and Ziwei created an anonymous author
+attribution system:
+
+#+begin_html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XksrKfxEprg" frameborder="0" allowfullscreen></iframe>
+#+end_html
+** 
+- GitHub: [[https://github.com/I-A-I/authorensics]]
+
+* 
+Not a SoftDev project, but for good measure, here's Natan and
+Angelika's Ballroom Dance project - apparently they're the first two
+to actually do a SONG and dance and they've both got the pipes:
+
+#+begin_html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_xjHFdrJ4jQ" frameborder="0" allowfullscreen></iframe>
+#+end_html
+
+There were lots of other great projects all up on github:
+[[https://github.com/stuycs-softdev/student-work-spring-2015]] albeit in a
+rather disorganized form.
+
+So proud of the work they all did this year.
