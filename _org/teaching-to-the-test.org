@@ -5,7 +5,7 @@
 ---
 published: true
 layout: post
-title: 
+title: Teaching to the test
 tags:  
 ---
 #+end_html
@@ -16,3 +16,7 @@ div.center {text-align:center;}
 </style>
 #+end_html
 
+Hello
+
+#+ATTR_HTML: :width 300px :align center
+[[http:/img/teaching-to-the-test/ap-pic.jpg]]
