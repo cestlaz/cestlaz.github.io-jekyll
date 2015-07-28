@@ -1,0 +1,26 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: 
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+http://ny.chalkbeat.org/2014/11/11/on-twitter-new-data-on-p-tech-spurs-debate-over-schools-merits-and-model/#.VbVAUd-c30o
+
+https://garyrubinstein.wordpress.com/2014/11/11/is-p-tech-a-miracle-school-or-a-failing-school/
+
+
+3 years math
+any major can be 2 years. 
+many schools do 3 terms or 2 years of algebra
