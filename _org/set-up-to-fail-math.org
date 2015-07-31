@@ -16,11 +16,43 @@ div.center {text-align:center;}
 </style>
 #+end_html
 
-http://ny.chalkbeat.org/2014/11/11/on-twitter-new-data-on-p-tech-spurs-debate-over-schools-merits-and-model/#.VbVAUd-c30o
+Four in ten NYC high schools don't offer Algebra 2 and both Pysics and
+Chemistry.
 
-https://garyrubinstein.wordpress.com/2014/11/11/is-p-tech-a-miracle-school-or-a-failing-school/
+At least that's what this [[http://ny.chalkbeat.org/2015/07/23/report-many-nyc-high-schools-dont-offer-advanced-math-and-science-courses/#.Vbjz1d-c30o%0A][article]] and linked report say.
+
+The implication is clear - many of our students don't have the
+opportunity to advance in math and the sciences.
+
+The truth though is much more disturbing.
+
+First, let's get one thing out of the way. I can't speak to Chemistry and
+Physics but the reason why these schools aren't offering Algebra two
+is very simple - the kids aren't ready for it. Any math licensed teacher is
+qualified and capable of teaching any level of regents math which
+includes Algebra two and Trigonometry. The truth is that the students
+in these schools by and large aren't getting past Geometry.
+
+Even in some highly touted [[https://garyrubinstein.wordpress.com/2014/11/11/is-p-tech-a-miracle-school-or-a-failing-school/%0A]["miracle schools,"]] looking behind the
+curtain reveals kids ill prepared to get through geometry. 
+
+The disturbing part is that these kids are set up to fail - to have
+their self esteem crushed, and why? Because more kids taking more
+exams at higher levels is perceived to look good.
+n
+So how are we getting to this point?
+
+In New York, students have to take three years of math to graduate
+high school. Two years can be spent on one level of math and of course
+Regents exams are king. 
+
+
 
 
 3 years math
 any major can be 2 years. 
 many schools do 3 terms or 2 years of algebra
+
+Geometry much harder
+scores bimodal
+teaching to the test (don't do the proof or construction)
