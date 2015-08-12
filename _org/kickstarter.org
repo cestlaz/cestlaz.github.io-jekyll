@@ -1,0 +1,48 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Help us create a Saturday Hacking Space for kids
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+[[img/kickstarter/pairing.jpg]]
+
+As many of you know, I'm part of the team behind [[http://cstuy.org/about][CSTUY]], a non-profit
+dedicated to bringing the best CS education to kids who wouldn't
+otherwise have the opportunity.
+
+Over the past two summers we've hosted our highly succesful immersion
+program SHIP. We were also able to run a small Saturday program thanks
+to the generosity of [[http://sumall.com][SumAll]] who provided space, and other members of
+the StuyCS family who provided laptops and the funds we needed.
+
+We're trying to do it again, this time through a kickstarter. What
+would be really awesome is if we could not only fund the Saturday
+program but also the summer program so we can focus on getting to the
+kids and not on raising money.
+
+So, we need you to head over to:
+
+Watch the video, read the project, and kick in for the cause.
+
+Just as importantly, spread the word - your friends, co-workers,
+managers, funders - anyone who can help.
+
+Wouldn't it be asweome if we could blow the roof off this kickstarter
+and be able to focus all year on teaching kids!!!!
+
+Thanks.
+
+
+
