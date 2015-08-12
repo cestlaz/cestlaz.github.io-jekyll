@@ -16,7 +16,9 @@ div.center {text-align:center;}
 </style>
 #+end_html
 
-[[img/kickstarter/pairing.jpg]]
+#+ATTR_HTML: :width 480px :align center
+[[http:/img/kickstarter/pairing.jpg]]
+
 
 As many of you know, I'm part of the team behind [[http://cstuy.org/about][CSTUY]], a non-profit
 dedicated to bringing the best CS education to kids who wouldn't
