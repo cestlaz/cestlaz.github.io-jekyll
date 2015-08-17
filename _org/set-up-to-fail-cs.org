@@ -5,7 +5,7 @@
 ---
 published: true
 layout: post
-title: 
+title: Setting kids up to fail - CS edition
 tags:  
 ---
 #+end_html
@@ -15,12 +15,75 @@ tags:
 div.center {text-align:center;}
 </style>
 #+end_html
+* 
+We talked about setting kids up to fail in math. What about CS?
 
-http://ny.chalkbeat.org/2014/11/11/on-twitter-new-data-on-p-tech-spurs-debate-over-schools-merits-and-model/#.VbVAUd-c30o
+Well, it's a little subtler.
 
-https://garyrubinstein.wordpress.com/2014/11/11/is-p-tech-a-miracle-school-or-a-failing-school/
+I started thinking about this after a conversation with one of my
+graduates about Harvard's famous CS50. Since that conversation, I've
+spoken to a number of my kids that have gone through CS50 and most
+seem to say the same things:
+
+- They don't really teach anything
+- The kids rely on a group member who already knows stuff or will
+  learn all the stuff on their own
+- If it weren't for my StuyCS background my group would have really
+  struggled.
+
+and things like that. I was then told that after CS50 kids go on to
+Functional Programming in OCAML and they drop like flies.
+
+Doesn't sound like a recipe for success.
+
+We're seeing this at multiple levels and we're seeing it because very
+few places seem to have a plan. A multi year path taking kids from
+start to finish. It's something we've done and I'm proud of it.
+
+I think that if we look carefully, we'll start to see what my
+graduates reported happening more and more. Traditional CS sequences
+can be pretty unforgiving and unless colleges put in a sensible ramp
+up and recognize that not all CS and related majors should go on to
+grad school we're going to have a high rate of kids initially thinking
+that CS is for them and then dropping. I do suspect it will get better as colleges
+recognize that there's more than one type of CS major.
+
+It will be interesting to see what happens on the high school
+level. Will we see what we've seen in math - two years on the first
+level course then dump the kids into something like APCS A or will we
+see something more sensible? 
+
+Where this really gets me is with all those after school and summer
+programs. One give away is when a program claims "learn to _____ in 4
+weeks," "our kids learn more than in an AP class", or something similar.
+
+My team and I have had to "rescue" kids from a number of
+them. 
+
+These programs take a number of forms:
+
+- Using simplified environments that export to mobile
+- Gluing together libraries with minimal code
+- Working with an extreme amount of coaching in a short period of
+  time.
+
+Now, none of these things are necessarily bad but so many of these
+programs are designed and run by non-educators. 
+
+So, the kids go through the programs, think they know the real deal,
+and are hammered when they enroll in a real CS class.
+
+I've seen it happen. There was even an article a couple of years ago
+which then went on to blame the teacher.
+
+Now, all these programs have to do is make sure the kids make
+something exciting and that they're happy. There's no real
+accountability and the guy at the next level will shoulder the blame.
+
+So there you have it, setting kids up to fail.
+
+It's something I think we'll have to be more aware of and on guard for
+as CS becomes more mainstream.
 
 
-3 years math
-any major can be 2 years. 
-many schools do 3 terms or 2 years of algebra
+
