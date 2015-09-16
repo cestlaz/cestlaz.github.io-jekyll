@@ -1,0 +1,65 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title:  I should be happy but feel like I've failed
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+ 
+The NY Times just posted an article - the  mayor announced a 10 year
+deadline by which time all NYC public school students will be taking
+CS.
+ 
+I should be happy. 
+ 
+I'm not. 
+
+I feel thoroughly defeated.
+
+As many of you know, I've struggled for years to try to bring CS
+education to more kids and to train more teachers. You also probably
+know that over the years, I've become pretty good at this.
+
+Why am I feeling so down about this.
+
+Because despite my best efforts I'm no closer to my goal than day one.
+
+Stuy is no closer to recognizing CS. I'm still a just math teacher
+and the DOE has given the job of running CS education to person after
+person none whom had any real CS experience and few who have had any
+real teaching experience.
+
+I see plans based on dropping in curricula and quick fixes.
+
+I see programs run by people still wet behind the ears with respect to
+CS Education.
+
+Sometimes I feel like I'm the only sane person in the room, or maybe
+I'm the loony. I'm not sure.
+
+Probably because I don't play well with others. 
+
+So I feel defeated.
+
+Defeated because I know I have something to offer that the kids of NYC
+deserve.
+
+Defeated because I know they're not going to get it.
+
+I'm already looking to leave Stuy and public education.
+
+Maybe this is just another sign that it's time.
+
+
+
