@@ -1,0 +1,106 @@
+
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Not in with the in crowd - concerns about NYC CS4All
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+* 
+Earlier this week, Mayor Bill deBlasio announced some ambitious 
+[[http://avc.com/2015/09/computer-science-for-all/][CS Education Plans]] for NYC. I posted a response [[http://cestlaz.github.io/2015/09/15/failed.html#.Vfx1Rp_0-Ak][here]]. Now that a few
+days past, I thought I'd clear a few things up.
+
+First and foremost, I hope my concerns are unfounded and I hope the
+plan is a tremendous success. 
+
+What's got me bummed is not that I need to see my name in lights
+given that in many ways I've been a CS Ed trailblazer (although who doesn't
+like a little ego stroking), rather that in my humble opinion NY has
+squandered a great opportunity and resource and as a results, kids
+won't get nearly all they could.
+
+This STEMs from the fact that NYC has been unwilling to engage us,
+StuyCS as a resource. We've got the most experience and success in
+building programs, training teachers, and teaching kids. What more
+could you ask?
+
+I've repeatedly reached out to and repeatedly invited in key
+government and DOE players in an effort to try to get them to look at
+our work and leverage it to do more good for more kids but over two
+mayors and around fifteen years, the silence we get back is deafening.
+
+Now, this isn't to say that I don't have some friends and supporters
+in the CS Ed space. I consider [[http://avc.com/2015/09/computer-science-for-all/][Fred Wilson]], the main man driving this
+from the tech sector side to be a supporter, ally and friend. His
+involvement is the key reason I think this whole thing might
+work. Likewise, many people in the tech industry who've worked with my
+graduates are very supportive of my efforts and my actual graduates are
+a wonderfully supportive family.
+
+So why do the DOE and NYC people say they don't want to include us?
+
+Here are some of the things I get back:
+
+- We want something that works for all students.
+
+This implies that our stuff is purely a result of Stuy being a school
+with high achievers. My response? 
+
+ - By saying all students but excluding high achievers, you can't mean
+   all students.
+ - Other high achieving schools haven't developed anything near what
+   we've built.
+ 
+ and it also ignores the fact that:
+
+ - Our nonprofit has had kids from around 40 to 50 schools and we
+   get rave reviews from those kids and their parents.
+ - Our gender numbers far outpace the national averages.
+ - We've had teachers move on to other schools and customize our work
+   their.
+* 
+and this is just the teaching part. What about our success in
+designing an overall program or training teachers.
+
+Of course it doesn't help that Stuyvesant's own administration has
+never recognized nor supported StuyCS.
+
+You'd think that those with the keys to the castle would engage and at
+least consult with the people who've been doing this successfully for
+over 20 years.
+
+* 
+So who are these folk with the keys?
+
+It's a mix of people. Some in NYC government, some in DOE, some Tech
+entrepreneurs, and running program. None have our experience or track
+record and a number have neither taught nor coded.
+
+Why won't they really engage us? 
+
+You're guess is as good as mine but I have my suspicions.
+
+* 
+Why am I concerned?
+
+Because we have something to offer. NYC and DOE won't leverage us as a
+resource. What other missteps will they make as they try to bring
+CS4All.
+
+I have no control over all of this, all I can do is work in my little
+corner of the world. If others want my help, my doors always open. If
+not, I know there will always be some parents, kids, and educators who
+get what we do and will benefit from it.
+
+
