@@ -1,0 +1,38 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: How it all began
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+* 
+This past week, Garth Flint wrote a couple of posts on how he
+got to be a CS teacher and on being a CS teacher. You can find them here:
+- [[https://gflint.wordpress.com/2015/10/07/so-you-want-to-be-a-cs-teacher-part-1/][Part 1]]
+- [[https://gflint.wordpress.com/2015/10/08/so-you-want-to-be-a-cs-teacher-part-2/][Part 2]]
+
+They're both well worth a read.
+
+It got me thinking about how I got my start.
+
+I never planned on being a teacher. I figured I'd just work in
+tech. After working my way through college, fresh CS degree in hand, I
+landed at Goldman Sachs. I had other opportunities but the tech scene
+was very different. You could (basically):
+- Work for a financial house or insurance company
+- Do niche consulting
+- travel out of the city to Bellcore, AT&T or IBM.
+
+Well, I didn't drive and wasn't going to do consulting so I ended up
+on Wall Street.  
