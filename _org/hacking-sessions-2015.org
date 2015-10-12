@@ -38,7 +38,7 @@ I'm pretty happy with our model but it took us a couple of iterations
 to get here.
 
 Our first go round was Fall 2013. We had just started CSTUY and wanted
-to get something started prior to launching a summer program. [[sumall.com][SumAll]]
+to get something started prior to launching a summer program. [[http://sumall.com][SumAll]]
 provided us with space and we were able to attract a small cadre of
 kids. We had a few of our older students as teaching assistants and
 ran the program with a mix of instruction and projects. Over the year
