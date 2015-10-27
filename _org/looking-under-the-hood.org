@@ -1,0 +1,67 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Looking under the hood
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+Just had an interesting conversation with [[http://chrisgrant.co][Chris]], one of our [[http://cstuy.org][CSTUY]]
+mentors. Chris is working with one of our more advanced groups of
+hackers - they'll be creating a web based app that with ultimately be
+deployed as mobile using [[http://phonegap.com/][PhoneGap]]. 
+
+The question he had was "[[http://angularjs.org][Angular.js]] or [[http://backbonejs.org][Backbone.js]]."
+
+Chris and I have had this conversation before. I was explaining at the
+time why I preferred to use Backbone.js over Angular in my SoftDev
+classes. Part of the reason is that the current version of Angular is
+already deprecated while the new version isn't ready for prime time
+yet. This means I'd be teaching to a dead end. More importantly, Angular
+is a much higher level framework than Backbone. There's a lot of
+"magic" going on. Just a few short lines of code and you're done.
+
+Backbone is much closer to the metal. It does less work for you so it
+let's me drill down with the kids all the way to the source. This way 
+the kids understand what's going on under the hood. As my buddy [[https://www.linkedin.com/in/gerryseidman][Gerry]]
+says, "never use a tool you couldn't write yourself." I personally
+like low level tools like Backbone.js. If you have to get a job
+done quickly, it might not be the right tool, but for teaching,
+it's terrific.
+
+I think Chris was surprised when I said that a higher level tool like
+Angular could very well be appropriate for our Saturday Hackers and
+that I'd certainly support whichever direction Chris wanted to go in
+with his team.
+
+Why  might it be right in this case?
+
+Mostly because the hackers only meet once a week. In our Saturday
+sessions, we want our kids to learn, but we also need to create an
+environment where they can continue to progress on their
+projects. Some times, compromise is needed. Angular will let them get
+up and running within the constraints of our program and the hackers
+will still learn a lot, particularly with people like Chris mentoring them.
+
+That's the balance we strive to achieve - a good amount of real CS but
+tempered with the realities of a once a week program.
+
+We could go the way of many other CS programs out there and
+just use tools that do 90% of the work but we like to think we have a
+higher standard and I think that's what makes our team of teachers and
+mentors special.
+
+
+
+
+

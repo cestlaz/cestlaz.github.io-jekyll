@@ -1,0 +1,89 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Self Appointed Experts
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+While looking over my tweet stream, I noticed this:
+
+#+BEGIN_HTML
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">RSVP today for the K-12 CS Education Panel, presented by <a href="https://twitter.com/Uber">@Uber</a> + <a href="https://twitter.com/FlatironSchool">@FlatironSchool</a>: <a href="https://t.co/nVBbSbRn9d">https://t.co/nVBbSbRn9d</a> <a href="https://t.co/NAxowSIfff">pic.twitter.com/NAxowSIfff</a></p>&mdash; Flatiron School (@FlatironSchool) <a href="https://twitter.com/FlatironSchool/status/658748945481474049">October 26, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+#+END_HTML
+
+So, on November 12, one can head over to Uber and listen to three
+experts talk about K12 CS Education. To quote the landing page:
+
+ - How can we engage our students in CS, and train our teachers to teach it?
+ - What are the biggest obstacles to overcome?
+ - What is the future of K-12 CS Education?
+ - What's working?`
+
+Sound great. 
+
+The problem? 
+
+Who are these expert voices that we're supposed to be listening to.
+
+The panel consists of three people: [[https://www.linkedin.com/profile/view?id=ADEAAACdvOoBuWtX0sqm4gkJmOZ0AxArrQJgvnQ&authType=OPENLINK&authToken=IPmC&locale=en_US&srchid=9425671445893373413&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%253A9425671445893373413%252CVSRPtargetId%253A10337514%252CVSRPcmpt%253Aprimary%252CVSRPnm%253Atrue%252CauthType%253AOPENLINK%0A][Adam Enbar]] of Flatiron School,
+[[https://www.linkedin.com/profile/view?id=ADEAAARHMgcBmb0ZqmtDHzi3b46_kZiEIL56VsQ&authType=NAME_SEARCH&authToken=uR-M&locale=en_US&srchid=9425671445893351065&srchindex=1&srchtotal=63&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%253A9425671445893351065%252CVSRPtargetId%253A71774727%252CVSRPcmpt%253Aprimary%252CVSRPnm%253Atrue%252CauthType%253ANAME_SEARCH%0A][Rebecca Novak]] of ScriptEd, and [[https://www.linkedin.com/profile/view?id=ADEAAAA2T2oBLc3-qal-_GfdMlMRdFEjP47jnOw&authType=NAME_SEARCH&authToken=4qXf&locale=en_US&srchid=9425671445893344587&srchindex=1&srchtotal=67&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%253A9425671445893344587%252CVSRPtargetId%253A3559274%252CVSRPcmpt%253Aprimary%252CVSRPnm%253Atrue%252CauthType%253ANAME_SEARCH%0A][Debbie Marcus]], the Executive Director
+of CS Education for the New York City Department of Education.
+
+Sounds interesting. 
+
+As a disclaimer, I have to say that I know Adam and Rebecca and
+consider them friends. I like ScriptEd and what they do in the
+schools. In fact, I think that my CSTUY programs are terrific next
+steps for ScriptEd kids. ScriptEd is becoming good at what they do and
+I think they're also aware of their limitations as an ed program. I
+also know that Flatiron has done a solid job retraining adults for the
+workforce. I don't think I've ever met Debbie Marcus. I also believe
+all these people are well meaning.
+
+What's the lay of the land?
+
+Given her position, Ms. Marcus will be considered a voice of
+authority and I can't seem to go to a CS Ed event without someone from
+the Flatiron School or someone from ScriptEd there in a place
+indicating that they should be considered an  authority on K12 CS
+Education.
+
+As much as I like what ScriptEd does in the schools and as much as the
+Flatiron School has a strong reputation as an adult coding school
+/ workforce program should these voices be the ones we're listening
+to?
+
+Let's dig deeper.
+
+Higher up in this post, I link to all three panelists LinkedIn
+profiles. All three are conspicuously missing one thing - experience
+in CS and Rebecca is the only one who's LinkedIn profile indicates any
+time teaching.
+
+Now, let's contrast that with the CSTUY and Stuy teams. Regular
+readers know what I've done building Stuyvesant's CS program and CSTUY
+over the past 25 years and if you look at my team they all have
+considerably more CS experience, Ed experience, and of course CS Ed
+experience.
+
+Who's driving the train? 
+
+Who's being excluded?
+
+What's wrong with this picture.
+
+
+
+

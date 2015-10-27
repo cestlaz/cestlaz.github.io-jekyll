@@ -1,0 +1,81 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Grading Autograders
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+The other day codehs made an announcement about there new
+[[https://medium.com/codehs-product-updates/these-are-the-autograders-you-ve-been-looking-for-bda0fa8fd8a][autograder]]. Fellow CS Teaching veteran Alfred Thompson had his say up
+on his [[http://blog.acthompson.net/2015/10/autogradersfor-good-or-for-evil.html][blog]] where he talked about [[https://computinged.wordpress.com/][Mark Guzdial]]'s comment on
+autograders leading to less creative assignments.
+
+I very much agree that autograders, due to their rigidness lend
+themselves to less creative projects, but thought I'd write up a few
+of my own thoughts on autograders.
+
+First and foremost, *I HATE GRADING*. It's one of the worst parts of
+my job and grading projects is *really* hard to do well.
+
+You'd think an autograder would be a panacea. 
+
+It's not. 
+
+In addition to them being very nit-picky -- got an extra space in your
+output? *FAIL*. Wrong number of significant digits? *FAIL*. Didn't
+handle all those "trick" cases? *FAIL*.
+
+Since autograders typically check your output against a correct
+solution, it's going to be limited in what it can grade right and
+wrong and what's more, it's very limited in the feedback it can give.
+
+These are some of the limitations that lead to less creative
+projects but that's not my beef with the autograders.
+
+Why do we give assignments? To assess students? Yes, but also to
+inform our instruction. We need to grade the assignments ourselves
+because those assignments tell us about our students and teach us how
+best to work with them. What's more, we really don't just want to see
+that finished product, but rather, we want to see the process as
+well. Autograders can't help here.
+
+I do use autograders -- [[http://codingbat.com][codingbat.com]] and our own locally developed
+[[http://bert.stuy.edu/pbrooks/SchemingBat/scheming.py][Scheming Bat.]] I use them for small homeworks and class assignments
+early on. For bigger stuff, I do it myself.
+
+For advanced classes (AP and beyond) we're all about the GitHub. Not
+only can I grab the projects at any time but I can also see how
+projects were developed - logs, diffs, [[https://github.com/vynl/vynl-v0/graphs/contributors][graphs]]. All give me insight
+into how the students working. Add in class lab time when I get to
+interact with the kids and I've got a good sense of my student
+computer scientists. 
+
+In our intro courses, where they're not ready for GitHub, we use
+Dropbox for sharing and collecting assignments. Not quite as good but
+we can still see a lot.
+
+At the end of the day, if a teacher doesn't look at a student's work
+directly, a teacher isn't going to know everything there is to know
+about a student. I can't imagine a top English teacher not reading a
+student's essays. We're no different. 
+
+It's time consuming and generally no fun but it's a big part of *real*
+education.
+
+
+
+
+
+
+
