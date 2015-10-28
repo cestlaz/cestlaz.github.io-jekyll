@@ -1,0 +1,125 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Know your tools - intermediate Emacs
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+* 
+A good workman is known by his tools, or so the saying goes. My tools
+of choice are my terminal shell and Emacs.
+
+I suppose if I was a full time developer working with a limited set of
+tools I might like an IDE like JetBrains or Eclipse but no matter how
+many alternatives I try, I always end back in Emacs.
+
+I recommend that my students spend time not only in Emacs but also in
+tools like Vim or Sublime Text.
+
+I do warn them, though, that as a commercial product, Sublime might
+not be around forever, I mean before Sublime was sublime, TextMate was
+sublime. If you go back to the 1980s, Brief was sublime. 
+
+Commercial tools come and go but I've been using Emacs since the mid
+eighties.
+
+A few students have been asking me for some pointers on going past the
+basics of Emacs so here we go.
+
+
+
+* Notes
+
+This post just has some getting started notes. There are mode powerful
+and advanced ways of doing most things.
+
+I think I'll just talk about a few of the basics here and will write
+about code development with Emacs in a later post.
+
+* Starting out
+
+Once you're OK with the basics (by using the built in tutorial or
+on line resources) start to fore yourself to get to know:
+
+** Buffers
+
+when you find a new file **(C-x C-f)** it opens it into a new
+buffer. You can also open a new buffer using **C-x b** and rather than
+selecting a buffer typing in a new buffer name.
+
+Each buffer can hold a file and you can switch quickly between them
+using **C-x b** and hitting *<Enter>*. 
+
+You can kill the current buffer with **C-x k**
+
+Using buffers lets you edit multiple files in a project quickly and
+efficiently.
+
+** Windows
+
+Your Emacs frame can be split into multiple windows. **C-x 2** splits
+the window top and bottom, **C-x3** left and right. You can switch
+between windows using **C-x o** for other window. Switching to one
+window is done with **C-x 1**.
+
+
+* Getting Help
+
+Get to know the built in help. You can always use functions like
+**esc-x describe-function** or **esc-x describe-key** and of course
+you can use completion to help speed things up but the help functions
+are bound to:
+- C-h k  for describe key
+- C-h f  for describe function
+- C-h a for search for command
+
+You can usually type **q** to close the help.
+
+* Navigation
+
+Use search for navigation rather than arrow keys.
+
+This can change the way you edit. 
+
+For example ,if I wanted to go up to the word Navigation, above,
+rather than using traditional motion keys, I'd do a reverse search
+(**C-r**) and search for Nav.
+
+Incremental search forward (**C-s**) and back are your friends.
+
+* Packages
+
+You can check out my emacs configuration here: 
+
+[[https://github.com/zamansky/dotemacs][https://github.com/zamansky/dotemacs]]
+
+You can find basic installation instructions there or you can use the
+interactive package manager, invoking it with **esc-x list-packages**.
+
+Some of my favorite general purpose packages are:
+
+- Swiper - for navigation and finding files
+- Hungry delete 
+- Expand Region
+- ace-windows
+
+* Next steps
+
+We haven't even talked about code development or killer packages like
+org-mode but I think this will do for a start.
+
+
+
+
+
+ 
