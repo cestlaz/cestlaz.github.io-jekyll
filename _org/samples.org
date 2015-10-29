@@ -1,0 +1,37 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: test
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+div.half {width:50%;}
+</style>
+#+end_html
+
+#+BEGIN_HTML
+<div class="half center">
+#+END_HTML
+
+|--------------+-------|
+| this is a    | table |
+|--------------+-------|
+| This is data | one   |
+|--------------+-------|
+| two          | three |
+|--------------+-------|
+|--------------+-------|
+| two          | three |
+|--------------+-------|
+
+#+BEGIN_HTML
+</div>
+#+END_HTML
