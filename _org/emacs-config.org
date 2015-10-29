@@ -108,10 +108,10 @@ interactive package manager, invoking it with **M-x list-packages**.
 
 Some of my favorite general purpose packages are:
 
-- Swiper - for navigation and finding files
-- Hungry delete 
-- Expand Region
-- ace-windows
+- [[https://github.com/abo-abo/swiper][Swiper]] - for navigation and finding files
+- [[https://github.com/nflath/hungry-delete][Hungry Delete]]
+- [[https://github.com/magnars/expand-region.el][Expand Region]]
+- [[https://github.com/abo-abo/ace-window][Ace Window]]
 
 * Next steps
 
