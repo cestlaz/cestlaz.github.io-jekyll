@@ -1,0 +1,90 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Something growing in the Hudson Valley
+tags:  
+---
+#+end_html
+
+
+#+BEGIN_HTML
+<!--
+
+Morgan Roderick pictures
+
+https://www.flickr.com/photos/morganroderick/sets/72157660040372060/with/22362235148/
+
+--!>
+#+END_HTML
+
+#+ATTR_HTML: :width 480px :align center
+[[http:/img/catskills-2015/lake.jpg]]
+
+*  
+The Hudson Valley's a beutiful place, particularly during the Fall.
+We don't get up there as much as we should - usually just for apple
+picking and then for [[http://sheepandwool.com/][the New York Sheep and Wool Festival]].
+
+It's a region with great food, hiking, natural beauty, history and more.
+
+So, what exactly is growing?
+
+The Hudson Valley Tech community.
+
+I first heard about what Hudson Valley was doing around Tech back at the Augsust
+[[http://nytm.tumblr.com/post/125527139762/august-2015-nytm-lineup][New York Tech Meetup]]. I was there with my students showing off their work.
+
+That's where I met [[https://twitter.com/kalekaposhilin?ref_src=twsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor][Kale Kaposhilin]] - one of the organizers of the
+[[http://www.meetup.com/hvtech/][Hudson Valley Tech Meetup]].  I later reconnected with a former student
+[[https://twitter.com/aq?ref_src=twsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor][Aaron Quint]] who is also very involved in Tech in Ulster County.
+
+Kale, Aaron, and others hosted an amazing event last week. Something
+of a coming out party for tech in the Hudson Vallyue - [[http://catskillsconf.com][CatskillsConf]].
+
+Catskills Conf was a tech conference but it's not your regular tech
+conference. Sure, it had tech speakers like John Resig and [[https://twitter.com/dens?ref_src=twsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor][Dennis
+Crowley]]. I brought up some students to show off their work and I gave
+a short rant on CS education. Sounds techie enough.
+
+But Catskillsconf was special. Hosted at the [[http://ashokancenter.org/][Ashokan Center]], an
+educational retreat, we all stayed bunkhouses together, ate together,
+and pretty much felt like we were in summer camp - and I mean that in
+the best way.
+
+Since we were all on site, nobody left in the evenings. We had live
+music, square dancing (what better way to get a group of A-social
+techies to mix), a live bird of prey show and [[https://twitter.com/songadaymann?ref_src=twsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor][Jonathan Mann]], our very
+own songwriter recapping each day:
+
+#+BEGIN_HTML
+<div class="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sTCStkcvg2g" frameborder="0" allowfullscreen></iframe>
+</div>
+#+END_HTML
+
+Then we had the workshops. Sure we had tech - wearables and drones,
+but personally, I had more fun at the blacksmithing and ukelele
+sessions.
+
+I think the biggest thing of all was that it felt like a community was
+building. It wasn't like your usual conference where you might know a
+few people and then force yourself to meet a few more. I'm looking for
+a better word, but for lack of one, it was comfortable.
+
+Hats off to Kale, Aaron, and the team for setting the stage and thanks
+to everyone there - organizers, particpants, staff, and volunteers we all made it an unbelievable experience.
+
+Can't wait until next year.
+
+
+
+
+
+
+
+
+
