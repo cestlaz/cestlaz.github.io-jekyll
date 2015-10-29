@@ -76,7 +76,7 @@ window is done with **C-x 1**.
 * Getting Help
 
 Get to know the built in help. You can always use functions like
-**esc-x describe-function** or **esc-x describe-key** and of course
+**M-x describe-function** or **M-x describe-key** and of course
 you can use completion to help speed things up but the help functions
 are bound to:
 - C-h k  for describe key
@@ -104,7 +104,7 @@ You can check out my emacs configuration here:
 [[https://github.com/zamansky/dotemacs][https://github.com/zamansky/dotemacs]]
 
 You can find basic installation instructions there or you can use the
-interactive package manager, invoking it with **esc-x list-packages**.
+interactive package manager, invoking it with **M-x list-packages**.
 
 Some of my favorite general purpose packages are:
 
