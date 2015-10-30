@@ -17,6 +17,9 @@ div.half {width:50%;}
 </style>
 #+end_html
 
+#+ATTR_HTML: :width 480px :align center
+[[http:/img/catskills-2015/lake.jpg]]
+
 #+BEGIN_HTML
 <div class="half center">
 #+END_HTML

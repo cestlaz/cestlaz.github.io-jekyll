@@ -1,0 +1,33 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Inner voices
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+div.half {width:50%;}
+</style>
+#+end_html
+
+
+#+ATTR_HTML: :width 480px :align center
+[[http:/img/halloween-2015/inner-voices.jpg]]
+
+It's Halloween again. This time, "Inside Out." 
+
+No video yet, but stay tuned.
+
+For the time being, enjoy some of our past madness:
+
+#+begin_html
+<iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PL9KxKa8NpFxJYgovyJhF4HZRsAqYKBLiG" frameborder="0" allowfullscreen></iframe>
+#+end_html
+
