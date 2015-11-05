@@ -1,0 +1,61 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Interview questions and tests 
+tags:  
+---
+#+end_html
+
+The StuyCS Family mailing list was host to an interesting discussion
+today. One of our younger members asked if the practice of giving
+technical problems during an interview was going to follow him
+throughout his career or if it goes away for more senior applicants.
+
+An interesting discussion followed.
+
+It reminded me of a time I was talking to a few senior engineers at a
+large tech company. A couple of younger engineers were with us along
+with a new hire. The youngsters started talking about the new hires
+technical interview questions. One older engineer light heartedly
+asked another "I don't recall any tricky technical questions, how
+about you?" "I don't recall any either..." and on around the table.
+
+Of course these senior engineers had track records that stretched for
+miles.
+
+I never liked those tech interview questions. If you just took
+algorithms, you've got an edge and it really seems to be more of a
+test of "have you seen this problem before" rather than a true test of
+ability.
+
+I much prefer those few companies that give "take home assignments" or
+use other ways to determine fit.
+
+The tech interview reminds me of the pop quiz or a poorly designed
+test. If you just ask the question that the kid doesn't get, the kid's
+in trouble. A kid could know how to handle 90% of the work but if the
+question is that last 10%, zero credit. 
+
+As teachers, we end up using many forms of assessment and try to
+develop an overall picture of a student.
+
+Companies should try to do the same.
+
+Why to companies still use these technical interview questions?
+
+Quite simply because they can.
+
+A company might miss out on a number of great candidates by using a
+bad technical question but they will probably get at least a
+reasonably strong hire that passes the test. For the company, mission
+accomplished.
+
+As teachers, we can't do that. I'm not given a class of 32 kids and
+asked to pull out a couple of software engineers. As teachers, we're
+supposed to pull everyone along. 
+
+
