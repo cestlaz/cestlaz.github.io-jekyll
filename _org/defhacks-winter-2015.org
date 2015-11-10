@@ -33,8 +33,8 @@ So, if you're a high school student who wants to spend a fun day
 building something cool or if you know one, more information and
 registration can be found here:
 
+[[http://defhacks.com]]
 
-[[http://defhacks.com][def hacks("Winter",2015):]]
 
 
 
