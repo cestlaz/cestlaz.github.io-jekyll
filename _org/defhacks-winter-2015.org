@@ -5,7 +5,7 @@
 ---
 published: true
 layout: post
-title: Announcing def hacks("Winter",2015):
+title: Announcing def hacks() Winter 2015:
 tags:  
 ---
 #+end_html
