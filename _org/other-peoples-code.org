@@ -1,0 +1,50 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: 
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+#+ATTR_HTML: :width 480px :align center
+[[http:/img/kickstarter/pairing.jpg]]
+
+Also write about PD
+
+Maybe about mets
+
+The coding on the Blaggherz is reminiscent in many ways of an Ed
+Sheerhan song. It left me in tears and very confused as to what the
+author was trying to accomplish.
+
+
+comments
+
+extra files that weren't needed
+
+comments on bottom
+
+bad param names
+
+directory strucutres
+
+Coding standards
+
+Too complex - show off code
+
+not enough separation
+
+schema file
+
+
+
