@@ -1,0 +1,66 @@
+
+* Blog Topics
+** tests vs projects - learning for grades vs learning to lean
+** DONE Bloginator part 2 - changing other peoples code
+** DONE Catskillsconf
+** CS Ed people - fracturing programs
+** Slack
+** DONE Emacs starter kit
+** Scripted curriculum killing creativity (ps 158 tour)
+** Eva S's email
+** GWC taking all the girls
+** DONE Bad after shcool programs - low hanging fruit - takes easy cases but no depth
+- Fred's post about numbers -- these programs show fake results but the
+next teacher has to deal with it
+** DONE NYCDA - hiring great teachers
+** DONE duplicates in two overlapping list of emails
+** DONE I don't care about databases - just data)
+** Code review
+- have kids just look over projects and get idea of what and how it works
+- phase 2 is the review
+** Stupid questions
+Zabari - how do I regex in find 
+real question was doing a search box
+Zane -- how do you store a list in sql
+he really Wanted - users have tags how do we store them 
+how do I use threads?
+** cheating and homework help - Claire's project
+** Stuyvesant's Brand
+** student portfolios in github linked with submodules
+** DONE python closures to decoratos
+** DONE reunions - mine, others
+** DONE My Stuy vs other peoples Stuy
+** DONE Star Triangles - refactoring coednny
+** DONE Godfather / Rock Star / Jazz Man
+** John Lee's answering system
+** building a CS program
+** DONE Teaching program developmentzamanskyq
+** StuyCS logo and store 
+** Teaching as jazz, comedy, hip hop
+** jim vs Gary - Force of personality
+** Bowling ball problem lesson
+** Intro to recursion
+** Bessie travels as CA
+** Wikis as web sites
+** Maze solver CA
+** Edge detection as CA
+** Bowling Ball Problem - analysis
+** Visitors day at Stuy
+** DONE qsort C vs scheme vs python
+** DONE Hanoi
+** DONE Woolly Willy
+** DONE Subversion for homework recap
+** DONE Subversion for projects and homework (pt1)
+** DONE Chapati
+** 2d Array topics - image processing
+** DONE 2d Array topics - word search - competition to make dense grid
+** Batya and insights into my students
+** DONE ML VS AI Course
+** On Line courses in general
+** DONE Should cs teachers program
+** 10000 hours to become good at something
+** Athletics and teams part 2
+** jim vs gary teaching styles
+** Working out -- discussions with Danny and Topher
+** Doing it right -- Jules using a faster data structure
+** Momath / vi hart etc -- hype versus teaching
