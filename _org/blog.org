@@ -1,6 +1,9 @@
 
 * Blog Topics
+** catwo
+** Sentence Generator in scheme
 ** tests vs projects - learning for grades vs learning to lean
+*** Will that be on the test
 ** DONE Bloginator part 2 - changing other peoples code
 ** DONE Catskillsconf
 ** CS Ed people - fracturing programs
