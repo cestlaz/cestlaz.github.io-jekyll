@@ -1,0 +1,87 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: internship advice
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+* 
+Recently, a number of graduates have been asking for advice on
+jobs. Which job should they take or which internship.
+
+I've been a teacher for the past 25 years and while I try to stay on
+top of the tech industry, I haven't worked in it full time in a
+quarter century. That means I'm by no means an expert on working in,
+as they say, the real world. Regardless, here's some of the things
+I recommend my gradutates consider.
+
+* Interning
+
+Much of the advice I give to my graduates entering the work force is
+also applicable to those going for internships but there's one piece
+of advice that is really only for the intern to be.
+
+That is, try a range of companies. 
+
+If you are spending two or three summes interning, don't just go to
+one type of company. Try one large, one small. Maybe check out a
+couple of different industries. 
+
+You'll be going for that full time job soon enough - take a couple of
+summers to find the dynamics that you want when you graduate.
+
+* Beyond
+
+Many of my graduates want to do the startup thing but all thing being
+equal, I usually recommend they spend at least a little time at one of
+the big boys. Facebook, Microsoft, Amazon, or the like. 
+
+Why? Right out of school, you're still learning and building your
+network. What better place than somewhere that's already succesful and
+works to hire the "best and brightest."
+
+Working at a succesful company allows you to not only work with strong
+people, but it also gives you a chance to learn how a succeful company
+goes about it's business.
+
+- How are projects managed
+- resources allocated
+- team dynamics
+
+Just to highlight some of the meta things you can learn.
+
+You'll also start to build your professional network.
+
+I also recommend looking at team not project when deciding where to
+land after college. Projects come and go but if you can find people
+you like to work with, that can last a career. 
+
+Finally, don't be afraid to relocate. What better time to check out a
+different part of the country or the world than now when you're young.
+
+
+* What else to look for
+
+As a final piece of advice, when looking at a company, ask yourself
+"do they seem happy working there." You're going to spend many an hour
+on the job - don't underestimate the value of being happy there. 
+
+I've known many peope doing a job for a paycheck and many that
+actually love getting up and going to work every day. The latter group
+is much happier.
+
+
+* Summing up
+ 
+
