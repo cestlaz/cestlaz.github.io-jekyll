@@ -16,5 +16,10 @@ div.center {text-align:center;}
 </style>
 #+end_html
 
-#+ATTR_HTML: :width 480px :align center
-[[http:/img/kickstarter/pairing.jpg]]
+A fascinating question raised in my CS Ed Research class this morning:
+Has anyone tracked to see if having CS/IT professionals visit
+classrooms (e.g., like with TEALS) leads to recruiting *more* teachers
+out of the classroom and into industry? We think about the
+professionals coming into the classroom to get the students to think
+"Hey, I could do that!" Might it not have the same effect on the CS
+*teachers*?
