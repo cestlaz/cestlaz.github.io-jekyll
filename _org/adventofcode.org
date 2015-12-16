@@ -1,0 +1,46 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Advent of Code
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+#+ATTR_HTML: :width 480px :align center
+[[http:/img/advent/advent.png]]
+
+
+Has everyone seen [[http://adventofcode.com][Advent of Code]]?
+
+It's a site with a series of programming problems that are being
+revealed one a day, a la an advent calendar. You can read more about
+it [[http://adventofcode.com/about][here]]. 
+
+I came to the party a little late so I'm only up to day 6.
+
+Each problem comes in two parts. The second is revealed after you
+complete the first. Both students and teachers are enjoying the
+problems.
+
+What I like about the Advent of code, besides the one a day release,
+is the fact that at least so far, the problems aren't super crazy
+hard. They require a little thought but they seem very doable.
+
+For me, that makes them a perfect platform on which to play with a new
+language. I'm working through these in Clojure. I've been putting my
+solutions up [[https://github.com/zamansky/adventofcodeclojure][here]]. I have no idea if my code is "good" Clojure but
+it's been fun nonetheless.
+
+So, if you're looking for a nice set of small programming problems
+and want to explore something new, check it out.
+

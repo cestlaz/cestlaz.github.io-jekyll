@@ -17,6 +17,22 @@ div.center {text-align:center;}
 #+end_html
 
 * 
+What internship should I take?
+
+Now that I'm graduating college, where should I work?
+
+I'm asked both a lot.
+
+I can't say I'm a true authority on the subject of where one should
+work, but let me share some of the thoughts I share with my students.
+
+* The Internship
+
+
+* The full time job
+
+
+* 
 Recently, a number of graduates have been asking for advice on
 jobs. Which job should they take or which internship.
 
