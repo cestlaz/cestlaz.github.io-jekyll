@@ -21,7 +21,7 @@ Almost twenty six years. That's how long I've been a NYC public school
 teacher. Most of that time at my alma mater, Stuyvesant. 
 
 A couple of years ago, the school paper wrote up an overview of my
-career. I re-posted it [[http://cestlaz.github.io/2014/09/17/stuycs-spectator.html#.Vnqfxh8Sr0o][here]]. I'm sometimes amazes of where we are now
+career. I re-posted it [[http://cestlaz.github.io/2014/09/17/stuycs-spectator.html#.Vnqfxh8Sr0o][here]]. I'm somtimes amazed at where we are now
 and how we got here.
 
 Regulars here also know my frustrations. To Stuy, I'm an
@@ -32,11 +32,12 @@ education.
 
 It was time for me to start the next phase of my career.
 
-I'm happy to say that I found it at Hunter College. I'll be joining
-Hunter College in late January. I'll be developing their CS Teacher
-Ed program and also working with their computer science
-udergrads. I'll also have the opportunity to work with the
-Manhattan/Hunter Science High School and Hunter College High School.
+I'm happy to say that I will be joining Hunter College in late
+January. I'll be joining Hunter College in late January. I'll be
+developing their CS Teacher Ed program and also working with their
+computer science undergrads. I'll also have the opportunity to work
+with the Manhattan/Hunter Science High School and Hunter College High
+School.
 
 I also look forward to the opportunity to work more closely with my
 friends in the K12 Ed space.
@@ -45,7 +46,7 @@ I'm very excited about this opportunity but it feels a bit weird after
 being in the same place for so long. I don't feel any special
 attachment to the institution that is Stuyvesant, my allegiance is to
 my current and former students and that community isn't going
-anywhere. Next year, I'll still be working with terrific young people,
+anywhere. Next year I'll still be working with terrific young people,
 just in a different location under a different name.
 
 I will miss the team that we've put together but even then, we get to
