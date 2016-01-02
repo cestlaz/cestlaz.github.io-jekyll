@@ -1,0 +1,100 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Teaching Coding - getting beyond superficial syntax
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+The other day, Alfred Thompson put up a piece about [[http://blog.acthompson.net/2015/12/code-in-different-languages.html][coding in multiple
+languages]]. Alfred references a post written last May by [[http://robunderwood.com/2015/05/31/code-syntax-compared-part-1/%0A][Rob Underwood.]]
+
+Both pieces are worth a look.
+
+Rob is trying to illustrate many of the superficial similarities in
+popular languages. 
+
+In the comments on Alfred's blog, both Alfred and I alluded to coding
+in an appropriate style for the language.
+
+For me the issue is even bigger.
+
+Learning to code is all the rage and places to learn are popping out of
+the woodwork.
+
+There are:
+
+ - In classes, in schools, with teachers
+ - Drop in programs in schools.
+ - Programs run by coding schools
+ - Moocs and other online resources
+ - Summer and weekend programs 
+
+And probably more. All of these options are giving more and more
+people a way to learn to code. 
+
+That's great, but it also raises concerns given that very few people
+involved in CS education have both strong teaching and CS backgrounds. 
+
+What I'm starting to see are the results as I meet young people coming
+out of all of these programs.
+
+Unfortunately, what I'm frequently seeing, at best, is very
+superficial coverage of syntax.
+
+I've seen kids who would have no basis for understanding that the
+ramifications of this Python code:
+
+#+BEGIN_SRC python
+a = 30
+def f():
+  a=20 
+  print a
+
+print a
+#+END_SRC
+
+and this Javascript code:
+
+#+BEGIN_SRC javascript
+a = 30;
+function f(){
+  a = 20  
+  console.log(a);
+}
+console.log(a);
+#+END_SRC
+
+are very different.
+
+It gets worse when I meet kids who "know C" because they were exposed
+to constructs like:
+
+#+BEGIN_SRC c
+for (i=0;i<10;i++){
+ // code goes here
+}
+#+END_SRC
+
+I think the most common issue come from kids being "taught"
+programming using javascript which seems deceptively simple but is
+really rather deep.
+
+It's important that as CS becomes more mainstream that we make sure
+that we have teachers and programs that are teaching the real deal. It
+can be fun and accessible but it does require teachers that know their
+stuff and are willing to continue to learn. 
+
+
+Do are kids deserve any less?
+
