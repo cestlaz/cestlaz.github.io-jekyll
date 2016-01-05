@@ -1,0 +1,30 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: International Blog Delurking Week 2016
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+
+
+It's been pointed out by a couple of bloggers I follow:
+ - [[https://gasstationwithoutpumps.wordpress.com/][Gas station without pumps]]
+ - [[http://blog.acthompson.net/][Computer Science Teacher (Alfred Thompson's blog)]]
+
+That it's International Blog Delurking Week.
+
+So, I know I don't have a large readership, but if you do read this
+ blog, why not give a brief hi in the comments.  I'd love to know who you are and what you do.
+
+
