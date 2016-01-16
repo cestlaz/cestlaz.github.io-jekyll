@@ -1,0 +1,167 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title:  Cellular Automata, NetLogo and real problems
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+.center {text-align:center;}
+.frame {width:60px;height:800px;}
+</style>
+#+end_html
+
+
+We've been using [[https://ccl.northwestern.edu/netlogo/][NetLogo]] in our intro course for years. It's a
+wonderful programming environment. Many of you recall the [[https://en.wikipedia.org/wiki/Logo_(programming_language)][Logo]]
+programming language. NetLogo is like Logo but instead of programming
+a turtle, you write a program that's run by multiple, perhaps hundreds
+of turtles and also by the world the turtles live on. 
+
+Some of the reasons we like it are that it's:
+
+ - An easy accessible textual programming language
+ - Makes building a graphical interface trivial
+ - great for modeling 
+ - Comes with tons of demo models
+
+And now, with the latest version, NetLogo programs/models can be
+deployed as web sites. All you have to do is save your program as
+"NetLogo Web" and put it up on a observer somewhere.
+
+If you haven't you should download and install NetLogo, run it, then
+go to the file menu and look at the built in models.
+
+I also enjoy playing with [[https://en.wikipedia.org/wiki/Cellular_automaton][Cellular Automata]] and NetLogo's a wonderful
+platform to play with. The turtles live on a grid of patches and just
+like the turtles, the patches will all run your program over and over.
+
+The patches make perfect cells for a cellular automaton and you can
+implement a rule set in your patches. 
+
+NetLogo even comes with a bunch of built in demo models for Cellular
+Automata including [[https://en.wikipedia.org/wiki/Conway%2527s_Game_of_Life][Conway's Game of Life]], probably the most famous CA.
+
+On the other hand, Conway's Game of Life is somewhat cliche and while
+I find it fascinating, it doesn't really solve a practical problem, at
+least on on the surface.
+
+So, I was looking for something more practical to do and something
+where we could explore some deeper CS concepts. 
+
+Image manipulation.
+
+In class, we make a Cellular Automaton where each cell or patch is a
+pixel in an image. In NetLogo, you can do this with the
+"import-pcolors" command. Lower down, I have a demo that just manually
+colors patches - the web version of NetLogo doesn't yet support that
+command.
+
+Task 1 - what if we want to shift the image over? The kids come up
+with a solution pretty quickly: "We can just have each patch ask its
+neighbor for its color." Here's the code they try:
+
+#+BEGIN_SRC netlogo
+; ask each patch to set its color to the color of the
+; patch at relative location -1,0
+to shift-naive
+  ask patches [ set pcolor [pcolor] of patch-at -1 0]
+end
+#+END_SRC
+
+To see what happens, scroll down to the NetLogo model below, click on
+setup and then hit the **shift-naive** button a few times.
+
+It doesn't work. 
+
+What's going on?
+
+It's a synchronization issue.
+
+Suppose we have the following three cells in a row:
+
+#+BEGIN_SRC ditaa :file "/img/shift-image/image1.png"
+
+
+
+                +--------+--------+--------+
+                |    cRED|    cBLU|    cYEL|
+                |        |        |        |
+                |        |        |        |
+                +--------+--------+--------+
+                     1        2        3
+
+#+END_SRC
+
+If cell 3 asks cell 2 it's color before cell 2 asks cell 1's color, we
+get the desired result:
+
+#+BEGIN_SRC ditaa :file "/img/shift-image/image2.png"
+
+
+
+                +--------+--------+--------+
+                |    cRED|    cRED|    cBLU|
+                |        |        |        |
+                |        |        |        |
+                +--------+--------+--------+
+                     1        2        3
+
+#+END_SRC
+
+But if cell 2 asks cell 1 for it's color first then cell 3 will
+actually get cell 1's color:
+
+#+BEGIN_SRC ditaa :file "/img/shift-image/image3.png"
+
+
+
+                +--------+--------+--------+
+                |    cRED|    cRED|    cRED|
+                |        |        |        |
+                |        |        |        |
+                +--------+--------+--------+
+                     1        2        3
+
+#+END_SRC
+
+So now we have the students thinking about synchronization and
+parallel processing and they don't even know it.
+
+The solution's pretty easy, break the problem up into two steps.
+
+First, have every patch ask its neighbor for its color and then once
+everyone knows their neighbor's color, then change:
+
+#+BEGIN_SRC html
+patches-own [next-color]
+
+to shift-correct
+  ; figure out my next color
+  ask patches [ set next-color [pcolor] of patch-at -1 0 ]
+  ; then switch to it
+  ask patches [ set pcolor next-color]
+end
+#+END_SRC
+
+You can run that by clicking **setup** again and then **shift-correct** a
+few times.
+
+There's some of the beauty of NetLogo - we can get kids to think about
+some deep concepts while playing with an easy to use, fun, interactive
+environment with a real textual programming language.
+
+Stay tuned for part 2 when I'll talk about creating a cellular
+automaton that can solve a maze.
+
+#+BEGIN_HTML
+<div class="center frame">
+<iframe class="center frame" src="/img/shift-image/shift-image.html"></iframe>
+</div>
+#+END_HTML
