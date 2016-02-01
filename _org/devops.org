@@ -1,0 +1,99 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: DevOps, or You don't know what the F you're doing!
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+Having just concluded almost a quarter century at one job in one
+place, I've been reflecting on a number of things.
+
+What I accomplished, what I've failed to accomplish, highlights,
+low lights and everything in between.
+
+I've also learned a lot over these twenty five years.
+
+One thing I learned is DevOps and System Administration. 
+
+Back around 1993 or 1994 Stuy wasn't really on the internet. Yes, we
+were able to scam stuy.edu even though we were a high school and yes
+we did have a class B address block but no one really had access.
+
+Somehow, Bruce, a student of mine at the time and I ended up with the
+job of getting Stuy onto the internet. Bruce was one of our superstar
+kids and people thought I had extensive experience setting up and
+running networks. Truth be told I messed around a bit but there's no
+way I would have hired myself for the job.
+
+Nonetheless, we were off. 
+
+We were able to take one of the RS/6000 AIX workstations that were
+supposed to be used as CAD stations and repurposed it as a server. We
+made email accounts for everyone and were off.
+
+Neither Bruce nor I really knew what we were doing but we figured
+things out. I learned a lot from him and I'd like to think he also got
+some benefit out of working with me. Fortunately, we seemed to have a
+knack for [[http://www.amazon.com/Linux-System-Administration-Handbook-Edition/dp/0131480057/ref=pd_sim_14_2?ie=UTF8&dpID=61%252B57ajucML&dpSrc=sims&preST=_AC_UL160_SR117%252C160_&refRID=164V89GZMZM2X9M2S8AH][finding the answers]].
+
+
+Of course, we had our moments. Once, we got a critical patch
+announcement from IBM. It said that if we needed the patch and didn't
+apply it were were in big trouble but if our machine didn't need it,
+applying the patch would kill our system. It was unclear whether we
+needed the patch or not.
+
+After about a half hour research, we determined that we didn't need
+the patch.
+
+But applied it anyway :-(.
+
+D'Oh.
+
+After a brief set of panic attacks and a bunch of fumbling around, we
+did manage to restore things.
+
+So, Bruce and I ran the system for a year or so and as I said, I
+learned a lot. Now, Bruce was close to graduating so I was starting to
+worry that I'd have to figure this all out myself soon. That was a
+seriously frightening thought. 
+
+I figured it would be good to bring in a couple of new super smart
+students. As it turns out, Jon was one of them. 
+
+At one point, there was some problem and Bruce and I were going to
+head to the office to try to figure it out. Jon asked if he could come
+and watch. I thought that was a great idea so I agreed.
+
+We all went to the office and Bruce and I went to work. After about
+fifteen minutes, Jon blurted out:
+
+#+BEGIN_QUOTE
+"I just figured how you guys do it!!!"
+
+"You guys have no idea what the F you're doing!!!!!"
+#+END_QUOTE
+
+We all cracked up.
+
+He was absolutely right. We had no clue. We didn't know what we were
+doing but we had become pretty good at figuring things out.
+
+Truth be told, that really is the norm. If you already knew how to
+solve the problem, well, then it really wouldn't have been a problem
+to begin with.
+
+So, you learn to figure it out. It's something I learned not to be
+afraid of a long time ago. I hope that it's something I've been able
+to convey to my students.
