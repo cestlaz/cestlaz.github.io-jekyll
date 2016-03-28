@@ -1,4 +1,5 @@
 name: Your New Jekyll Site
 markdown: kramdown
-pygments: true
+highlighter: pygments
 paginate: 10
+gems: [jekyll-paginate]

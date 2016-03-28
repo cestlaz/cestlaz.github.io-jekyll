@@ -1,0 +1,47 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: Hunter College - Honors CS
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+
+It's been a while since my last post and a while since I started at
+Hunter.
+ 
+Time to share a bit about what I've been up to.
+
+One of the better kept secrets in New York City is Hunter College's
+computer science program. It's been around for years and it's been
+that way for years. In fact, when I was looking to get my masters
+degree back in the mid nineties I carefully researched all of the
+area's MS in CS programs. It came down to Hunter College and Courant
+Institute at NYU. I was going to go with Hunter since the programs
+seemed comparable and Hunter was far more affordable but I had to go
+with NYU due to class schedules. Too many of the Hunter offerings were
+to early in the day and I had my full time teaching job to consider.
+
+Hunter isn't currently offering their Masters program but their
+Bachelor of Arts program is alive and well, it's just that people
+don't know about it.
+
+Part of my job is to change that.
+
+
+
+
+
+
+
+
+
