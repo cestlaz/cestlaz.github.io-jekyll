@@ -39,7 +39,10 @@ There isn't a single right answer but I thought I'd share some of my thoughts he
 I'm hoping this is helpful to both those of us in the trenches as well
 as maybe some platform developers out there.
 
+#+BEGIN_HTML
+<a href="#tldr">TL;DR</a>
 
+#+END_HTML
 * Technical limitations
 
 On the one hand, using a cloud based platform seems to be a
@@ -128,7 +131,7 @@ incremental learning curve
 use install at home but ide that integrates with github at home
 
 * Solutions?
-
+<a NAME="tldr"></a>
 web + local + api
 
 
