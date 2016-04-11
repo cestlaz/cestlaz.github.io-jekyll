@@ -16,7 +16,7 @@ div.center {text-align:center;}
 </style>
 #+end_html
 * 
-This weekend, I had this conversation with my friend [[https://twitter.com/roybahat][Roy Bahat]]:
+This weekend, I had a conversation on Twitter with my friend [[https://twitter.com/roybahat][Roy Bahat]]:
 
 #+BEGIN_HTML
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/zamansky">@zamansky</a> Mike, unrelated, what do you think of <a href="https://t.co/BT1ublbajF">https://t.co/BT1ublbajF</a> ?</p>&mdash; Roy Bahat (@roybahat) <a href="https://twitter.com/roybahat/status/718835740738650112">April 9, 2016</a></blockquote>
@@ -121,6 +121,8 @@ incremental learning curve
 * Combining tools
 use install at home but ide that integrates with github at home
 
+* Solutions?
+web + local + api
 
 
 
