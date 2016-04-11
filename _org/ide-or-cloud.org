@@ -72,8 +72,8 @@ I'd say there are three basic types of cloud based IDE solutions:
    "teacher replacements." I am, however a huge fan of Codesters since
    they really work with and support teachers so as to create the best
    learning experience collectively for the child.]
-2. IDEs that provide a more immersive coding and runtime environment
-   such as [[http://koding.com][Koding.com]] or the [[http://c9.io][Cloud9]] ide.
+2. IDEs that provide a more immersive coding, runtime, and even
+   deployment environment such as [[http://koding.com][Koding.com]] or the [[http://c9.io][Cloud9]] ide.
 3. More bare bones web based environments such as [[http://repl.it][repl.it]].
 
 In addition to the run everywhere and lack of install, a big plus for
@@ -91,16 +91,22 @@ silo. The editor is not all that powerful (or you're restricted to a
 text mode editor in a shell), you're limited in your debugging and
 langauge tools and you're pretty much insulated and isolated from the
 world. All of this keeps the cost of entry down but there should be an
-eventual exit strategy to the rest of the world.
+eventual exit strategy to the rest of the world. I can't tell you how
+many times I've seen kids who's only exposure to coding was in some
+web based IDE and they end up dead in the water when they want to
+actually do something on their local machine.
 
 
-Another problem is taht you can't, or at least you're limited in terms
+Another problem is that you can't, or at least you're limited in terms
 of combining different tools or exploring problems in a way contrary
 to the cloud product designers vision. I use my own customized version
 of Emacs as my go to editor and use an assortment of Linux shell based
 tools in my day to day problem solving. Kids who learn everything in a
 cloud IDE won't have the opportunity for the "OS as toolset" mentality
-that command line geeks like me swear by.
+that command line geeks like me swear by. Related is the fact that
+kids won't learn how to use industry standard tools and build
+workflows. This might not be a problem in the future if we move
+everything to the browser but for now it's an issue.
 
 
 * For and against local installs (assuming time and ability to install)
@@ -122,9 +128,12 @@ incremental learning curve
 use install at home but ide that integrates with github at home
 
 * Solutions?
+
 web + local + api
 
 
+and how I do it - IDE -> Emacs 
+can use cloud at beginning and end
 
 
 
