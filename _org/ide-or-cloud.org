@@ -60,7 +60,7 @@ So those are the two questions:
 1. Do you have access to your infractructure?
 2. Do you have sufficient bandwidth to support wifi
 
-Depending onthe answers you might not have much of a choice.question 
+Depending onthe answers you might not have much of a choice
 
 * For and against the cloud (assuming the badwidth)
 
@@ -90,8 +90,17 @@ This is all terrific, but there's also a downside. You're trapped in a
 silo. The editor is not all that powerful (or you're restricted to a
 text mode editor in a shell), you're limited in your debugging and
 langauge tools and you're pretty much insulated and isolated from the
-world. This keeps the cost of entry down but there should be an
+world. All of this keeps the cost of entry down but there should be an
 eventual exit strategy to the rest of the world.
+
+
+Another problem is taht you can't, or at least you're limited in terms
+of combining different tools or exploring problems in a way contrary
+to the cloud product designers vision. I use my own customized version
+of Emacs as my go to editor and use an assortment of Linux shell based
+tools in my day to day problem solving. Kids who learn everything in a
+cloud IDE won't have the opportunity for the "OS as toolset" mentality
+that command line geeks like me swear by.
 
 
 * For and against local installs (assuming time and ability to install)
