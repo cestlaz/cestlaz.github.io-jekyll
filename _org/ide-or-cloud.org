@@ -1,0 +1,126 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+begin_html
+---
+published: true
+layout: post
+title: IDE or the Cloud
+tags:  
+---
+#+end_html
+
+#+begin_html
+<style>
+div.center {text-align:center;}
+</style>
+#+end_html
+* 
+This weekend, I had this conversation with my friend [[https://twitter.com/roybahat][Roy Bahat]]:
+
+#+BEGIN_HTML
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/zamansky">@zamansky</a> Mike, unrelated, what do you think of <a href="https://t.co/BT1ublbajF">https://t.co/BT1ublbajF</a> ?</p>&mdash; Roy Bahat (@roybahat) <a href="https://twitter.com/roybahat/status/718835740738650112">April 9, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/roybahat">@roybahat</a>Maybe I&#39;ll blog about my thoughts about online environments vs local installs</p>&mdash; Mike Zamansky (@zamansky) 
+<a href="https://twitter.com/zamansky/status/718837282334240768">April 9, 2016</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/roybahat">@roybahat</a> Agree with this but there are many issues. I&#39;ll try to write more later. Now going to see my son in <a href="https://twitter.com/umgass">@umgass</a> prod of Pinafore.</p>&mdash; Mike Zamansky (@zamansky) <a href="https://twitter.com/zamansky/status/718838508689993728">April 9, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+#+END_HTML
+
+Another friend had just asked me about IDEs vs local installs for learning enviromnents the day before.
+
+So, should we use cloud based IDEs when teaching CS or should we use
+local installs.
+
+There isn't a single right answer but I thought I'd share some of my thoughts here.
+
+I'm hoping this is helpful to both those of us in the trenches as well
+as maybe some platform developers out there.
+
+
+* Technical limitations
+
+On the one hand, using a cloud based platform seems to be a
+panacea. No install, run everywhere, kids can use from home. 
+
+They also solve the age old problem of convincing the IT people to install
+whatever beast of an environment is needed. It seems to be rare when a
+CS teacher has access to install any tool she wants on a labs worth of
+machines and even when it's allowed, who has the time on top of one's
+teaching obligations.
+
+On the other hand, even when a school has a big enough pipe to the
+outside world to support classes being online, they rarely have enough
+[[http://www.nytimes.com/2016/01/14/nyregion/bronx-science-bans-cellphones-from-wi-fi-as-students-devour-it.html?_r=0][in house wifi capacity]].
+
+So those are the two questions:
+
+1. Do you have access to your infractructure?
+2. Do you have sufficient bandwidth to support wifi
+
+Depending onthe answers you might not have much of a choice.question 
+
+* For and against the cloud (assuming the badwidth)
+
+I'd say there are three basic types of cloud based IDE solutions:
+
+1. Online IDEs meant to go with an overall online learning
+   environment. [[http://codesters.com][Codesters]] is a good example of this.[fn:Note: In
+   general, I'm not a huge fan of many of these since they're used as
+   "teacher replacements." I am, however a huge fan of Codesters since
+   they really work with and support teachers so as to create the best
+   learning experience collectively for the child.]
+2. IDEs that provide a more immersive coding and runtime environment
+   such as [[http://koding.com][Koding.com]] or the [[http://c9.io][Cloud9]] ide.
+3. More bare bones web based environments such as [[http://repl.it][repl.it]].
+
+In addition to the run everywhere and lack of install, a big plus for
+these is that many have a collaborative component. In some cases, you
+can easily share your work or comment on others work and in some cases
+you can edit collaboratively. On top of that, some can link to places
+like GitHub, which can be a plus or a minus, depending on your
+situation.
+
+The other plus is a pretty low bar for entry. The student is presented
+with a file listing. They click to get a simple web based editor.
+
+This is all terrific, but there's also a downside. You're trapped in a
+silo. The editor is not all that powerful (or you're restricted to a
+text mode editor in a shell), you're limited in your debugging and
+langauge tools and you're pretty much insulated and isolated from the
+world. This keeps the cost of entry down but there should be an
+eventual exit strategy to the rest of the world.
+
+
+* For and against local installs (assuming time and ability to install)
+
+
+
+IDE complexity - eclipse 
+multiple tools
+link them
+APIs
+real world tools
+incremental learning curve
+
+
+* Virtual Machines
+
+
+* Combining tools
+use install at home but ide that integrates with github at home
+
+
+
+
+
+
+facebook silo vs ecosystem
+api (which could be implemented in the web)
+
+installing issues
+colleges giving out virtual machines
+
+wifi bandwidth in schools
