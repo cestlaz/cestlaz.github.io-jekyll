@@ -114,36 +114,60 @@ everything to the browser but for now it's an issue.
 
 * For and against local installs (assuming time and ability to install)
 
+Here, we also have a range of tools. We have
 
+1. Professonal IDEs and environments.
+2. Learning or educational IDEs.
+3. Going old school with an editor and CLI.
 
-IDE complexity - eclipse 
-multiple tools
-link them
-APIs
-real world tools
-incremental learning curve
+Installation alone can be a bear and every time a machine is replaced
+or repaired it has to be done again. This alone can make a local
+install a non-starter. For the sake of this discussion however, let's
+assume install isn't a problem.
 
+I'm not a fan of full blown professional IDEs like Eclipse. Too big
+and bloated and require a large screen. I can understand a
+professional developer wanting to use them but they're notoriously
+non-learner friendly.
+
+Leaner IDEs lie the JetBrains producst are much quicker and easier to
+install and much lighter weight to run. I also wouldn't use them in my
+classes but if I weren't an Emacs wonk I might use them for my
+personal work.
+
+We then have student IDEs. These are simple environments with a code
+section and a REPL. Some are for a single language like NetLogo and
+others come in many flavors: Dr. Racket, Dr. Python, Dr. Java.
+
+I'm a fan of all of these - they provide for a quick ramp up for kids
+and a nice amount of structure.
+
+I like these but only as a stepping stone to using a full blown
+customizable editor. My choice is Emacs but Atom, Vim, and Sublime
+Text are all fine alternatives. 
+
+I like these, along with command line tools because they're
+multi-taskers. You can do development in any language and a whole lot
+more. 
+
+As a final note on IDEs, I'm not a fan of tools like Blue-J. It's
+really nice for developing OOP ideas but I'm not a fan of one trick
+ponies.
 
 * Virtual Machines
 
-
-* Combining tools
-use install at home but ide that integrates with github at home
+I've also seen one other approach. Some college professors give their
+students a virtual machine image. They essentially boot up a virtual
+Linux environment.  This approach makes it easy for the professor to
+make sure all students have the tool set but this is certainly not
+appropriate at the K12 level.
 
 * Solutions?
 <a NAME="tldr"></a>
-web + local + api
+
+Here's the approach I like to take. 
+
+I like to start our kids, tenth graders, with student IDEs like
+Dr.Racket and NetLogo. 
 
 
-and how I do it - IDE -> Emacs 
-can use cloud at beginning and end
-
-
-
-facebook silo vs ecosystem
-api (which could be implemented in the web)
-
-installing issues
-colleges giving out virtual machines
-
-wifi bandwidth in schools
