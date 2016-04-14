@@ -63,3 +63,11 @@ All I want is Jekyll!!!!!!
 Why can't I just **pip install jekyll** like I can do with Python
 packages!!!!!
 
+nothing wrong with ruby ecosystem I'm just nnot familiar
+
+using python for years
+
+Garth and Alfred
+
+and cloud vs ide
+
