@@ -19,14 +19,14 @@ might have to re-subscribe.
 
 Why am I switching?
 
-Beccause I hate Ruby. 
+Because I hate Ruby. 
 
 Ok, not really - I barely know the language. I was already a  Python
 guy when Ruby came along and I didn't see any real added value to
 switching. 
 
-This isn't really about Ruby though, it's really about the Ruby
-ecosystem and how that which we don't know is strange and frightening
+This isn't really about Ruby though, it's really about how that which
+we don't know is strange and frightening. In this case, the ruby ecosystem.
 
 #+BEGIN_HTML
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LV0wTtiJygY" frameborder="0" allowfullscreen></iframe>
@@ -38,7 +38,7 @@ warts, specifically, I've had problems getting org-mode blog posts to
 publish just the way I'd like and it's hard to debug when a post has
 some bad markup in it, but it got the job done. 
 
-Recently, though, I've had to reinstall Jekyll a number of  times and
+Recently, though, I've had to re-install Jekyll a number of  times and
 for me, that's been a nightmare.
 
 One is supposed to just be able to **sudo gem install jekyll**.
@@ -52,7 +52,7 @@ sudo apt-get install ruby-dev
 But I've got ruby 1.9 and I need ruby 2 point something. Ok:
 
 #+BEGIN_SRC bash
-sudp apt-get install ruby2.0 ruby2.0-dev
+sudo apt-get install ruby2.0 ruby2.0-dev
 #+END_SRC
 
 But that fails since we're still running 1.9. Every time I look for a
@@ -63,11 +63,37 @@ All I want is Jekyll!!!!!!
 Why can't I just **pip install jekyll** like I can do with Python
 packages!!!!!
 
-nothing wrong with ruby ecosystem I'm just nnot familiar
+In truth, there's nothing wrong with the ruby ecosystem, It's just
+something I'm not familiar with. I probably had to go through the same
+battles with Python it's just that I did them incrementally over time.
 
-using python for years
+The truth is, setting up a development environment should be much
+easier. It used to be that I installed Linux, it had C installed and I
+just had to install [[https://en.wikipedia.org/wiki/Make_(software)][make]]. Now it's all about tool chains, virtual
+environments, containers, and more.
 
-Garth and Alfred
+ I think this is what [[https://twitter.com/roybahat][Roy]] was talking about when we traded
+tweets on using development environments in an  [[http://cestlaz.github.io/2016/04/12/ide-or-cloud.html#.Vw_nPN9vETt][Ide or in the cloud]].
 
-and cloud vs ide
+If it's hard for me to get an environment running, imagine some poor
+soul who just went through a "learn to code" web site and now has to
+figure out how to set up his or her own machine!!!!!!
 
+I don't have a solution but at least it hasn't stopped me and others
+from trying new things.
+
+Two of my CS blogging friends, [[https://gflint.wordpress.com/][Garth Flint]] and [[http://blog.acthompson.net/][Alfred Thompson]] have in
+their own ways talked about this same issue. Garth, showing a bias
+towards VB yet still working to get his head around Python. Alfred
+shows the same disdain for Linux and the command line as I show
+towards Windows. All this leads to valuable learning experiences and
+discussions.
+
+Personally, I'm also going through this battle as I continue to
+explore Clojure.
+
+So, I'm going to finish the changeover to Nikola in the next day or
+two. Remember to check back in case the feeds aren't working.
+
+Once I make the change, I'll talk about Jekyll vs Nikola as actual
+blogging platforms.
